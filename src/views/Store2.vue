@@ -17,7 +17,7 @@
 
     <div class="contentsWarpper">
       <div class="Incontents">
-        <h1>Vision</h1>
+        <h2>Vision</h2>
         <div class="vision">
           <p>
             「障がい者とともに働く場」、「誰もがゆったりくつろげる場」<br />気軽に立ち寄っていただける
@@ -27,11 +27,11 @@
           </p>
         </div>
 
-        <h1>Infomation</h1>
+        <h2>Infomation</h2>
 
         <div class="storeExp">
           <div class="EXP">
-            <h2>cafe rest pica pica 市役所店</h2>
+            <h3>cafe rest pica pica 市役所店</h3>
             <p>ご連絡</p>
             <ul>
               <li>〒581-0003</li>
@@ -74,10 +74,10 @@
             ></iframe>
           </div>
         </div>
-        <h1>More</h1>
+        <h2>More</h2>
         <div class="ToLink">
           <ul>
-            <li><a href="/#/store2/store2_menu">メニュー</a></li>
+            <router-link to="/store2_menu">メニュー</router-link>
             <li><a href="/">その他活動</a></li>
             <li><a href="/">メンバーさん募集</a></li>
           </ul>
@@ -107,7 +107,6 @@ export default {
         breakpoints: {
           400: {
             //この数字は400以上の条件分岐を指す
-            centerMode: false,
             itemsToShow: 1,
           },
           1000: {
@@ -127,8 +126,8 @@ export default {
 /* id = # class = . で指定する */
 /* 1980pxのCSS設定 */
 
-/* h1にの設定 */
-h1 {
+/* h2にの設定 */
+h2 {
   margin-left: 15%;
   font-weight: bold;
   letter-spacing: 3px;

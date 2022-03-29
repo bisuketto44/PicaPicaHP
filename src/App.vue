@@ -2,12 +2,11 @@
   <div id="app">
     <div class="nav">
       <div>
-        <a href="/">
+        <router-link to="/">
           <img
             alt="picapicalogo"
             src="./assets/PicapicaLogo-removebg-preview.png"
-          />
-        </a>
+        /></router-link>
         <div class="selecter">
           <router-link to="/">ゆるり福祉会</router-link> |
           <router-link to="/store1">空港店</router-link> |

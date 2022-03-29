@@ -20,7 +20,7 @@ export default new Router({
       component: () => import( /* webpackChunkName: "about" */ '../views/Store2.vue')
     },
     {
-      path: '/store2/store2_menu',
+      path: '/store2_menu',
       name: 'Store2_Menu', // URL 
       component: () => import( /* webpackChunkName: "about" */ '../views/Store2_Menu.vue')
     },
