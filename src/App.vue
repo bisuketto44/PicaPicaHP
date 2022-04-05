@@ -43,6 +43,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0 auto;
+
+  width: 100%;
 }
 
 .footer {
@@ -114,12 +116,12 @@ body {
 
 @media (max-width: 9999px) {
   .app {
-    width: 1600px;
-    min-width: 1600px;
+    width: 1400px;
+    min-width: 1400px;
   }
   .nav {
-    width: 1600px;
-    min-width: 1600px;
+    width: 1400px;
+    min-width: 1400px;
   }
 }
 
