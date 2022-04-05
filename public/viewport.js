@@ -1,4 +1,4 @@
-var baseW = 700; //基準となるブレークポイント
+var baseW = 900; //基準となるブレークポイント
 var iOSviewportW = 0;
 var ua = navigator.userAgent.toLowerCase();
 var isiOS = (ua.indexOf("iphone") > -1) || (ua.indexOf("ipod") > -1) || (ua.indexOf("ipad") > -1);
@@ -14,10 +14,15 @@ function updateMetaViewport() {
         w = iOSviewportW;
     }
     //700px以下で900widthに固定 
-    if (w < baseW) {
+    if (w <= 900) {
         viewportContent = "width=" + 900 + "px,user-scalable=no,shrink-to-fit=yes";
-    //それより上は1600widthに固定 
-    } else if (w > baseW) {
+        //それより上は1600widthに固定 
+    } else if (w >= 901 && w <= 1600) {
+        viewportContent = "width=" + 1600 + "px,user-scalable=no,shrink-to-fit=yes";
+    } else if (w >= 1601 && w <= 1920) {
+        viewportContent = "width=" + 1903 + "px,user-scalable=no,shrink-to-fit=yes";
+    }
+    else{
         viewportContent = "width=" + 1600 + "px,user-scalable=no,shrink-to-fit=yes";
     }
     document.querySelector("meta[name='viewport']").setAttribute("content", viewportContent);

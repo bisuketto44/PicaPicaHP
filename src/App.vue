@@ -36,9 +36,7 @@
   position: relative; /* ←相対位置 */
   padding-bottom: 70px; /* ←フッターの高さを指定 */
   box-sizing: border-box;
-}
 
-body {
   margin: 0;
   font-family: "Lato", "Hiragino Maru Gothic ProN", "ヒラギノ角ゴ ProN W3",
     "sans-serif", "sans-serif";
@@ -66,27 +64,6 @@ body {
 
 /* HTMLの幅を固定するとそこに合わせないとダメ */
 
-@media (max-width: 2560px) {
-  body {
-    width: 1903px;
-    min-width: 1903px;
-  }
-}
-
-@media (max-width: 1600px) {
-  body {
-    width: 1600px;
-    min-width: 1600px;
-  }
-}
-
-@media (max-width: 900px) {
-  body {
-    width: 900px;
-    min-width: 900px;
-  }
-}
-
 .nav {
   padding: 15px;
   /* z-indexを10に指定してください */
@@ -97,6 +74,15 @@ body {
   top: 0;
   z-index: 10;
   border-bottom: 1.5px solid rgba(85, 82, 82, 0.425);
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", "Hiragino Maru Gothic ProN", "ヒラギノ角ゴ ProN W3",
+    "sans-serif", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
 }
 
 .nav img {
@@ -124,5 +110,33 @@ body {
 
 .nav a.router-link-exact-active {
   color: #52ca62;
+}
+
+@media (max-width: 2560px) {
+  .app {
+    width: 1600px;
+    min-width: 1600px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .app {
+    width: 1903px;
+    min-width: 1903px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .app {
+    width: 1600px;
+    min-width: 1600px;
+  }
+}
+
+@media (max-width: 900px) {
+  .app {
+    width: 900px;
+    min-width: 900px;
+  }
 }
 </style>
