@@ -138,12 +138,12 @@ body {
 
 @media (max-width: 1919px) {
   .app {
-    width: 1600px;
-    min-width: 1600px;
+    width: 1400px;
+    min-width: 1400px;
   }
   .nav {
-    width: 1600px;
-    min-width: 1600px;
+    width: 1400px;
+    min-width: 1400px;
   }
 }
 
@@ -157,4 +157,6 @@ body {
     min-width: 900px;
   }
 }
+
+
 </style>
