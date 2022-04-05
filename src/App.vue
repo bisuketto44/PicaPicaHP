@@ -117,17 +117,7 @@ body {
     width: 1600px;
     min-width: 1600px;
   }
-}
-
-@media (max-width: 1920px) {
-  .app {
-    width: 1903px;
-    min-width: 1903px;
-  }
-}
-
-@media (max-width: 1600px) {
-  .app {
+  .nav {
     width: 1600px;
     min-width: 1600px;
   }
@@ -135,6 +125,10 @@ body {
 
 @media (max-width: 900px) {
   .app {
+    width: 900px;
+    min-width: 900px;
+  }
+  .nav {
     width: 900px;
     min-width: 900px;
   }
