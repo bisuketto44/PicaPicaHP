@@ -17,8 +17,12 @@ function updateMetaViewport() {
     if (w <= 900) {
         viewportContent = "width=" + 900 + "px,user-scalable=no,shrink-to-fit=yes";
         //それより上は1600widthに固定 
-    } else if (w >= 901) {
-        viewportContent = "width=" + 1400 + "px,user-scalable=no,shrink-to-fit=yes";
+    } else if (w >= 901 && w <= 1919) {
+        viewportContent = "width=" + 1600 + "px,user-scalable=no,shrink-to-fit=yes";
+    } else if (w == 1920) {
+        viewportContent = "width=" + 1903 + "px,user-scalable=no,shrink-to-fit=yes";
+    } else if (w >= 1921) {
+        viewportContent = "width=" + 1300 + "px,user-scalable=no,shrink-to-fit=yes";
     }
 
     document.querySelector("meta[name='viewport']").setAttribute("content", viewportContent);

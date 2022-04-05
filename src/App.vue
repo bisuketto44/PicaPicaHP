@@ -114,14 +114,36 @@ body {
   color: #52ca62;
 }
 
-@media (max-width: 9999px) {
+@media (min-width: 1921px) {
   .app {
-    width: 1400px;
-    min-width: 1400px;
+    width: 1300px;
+    min-width: 1300px;
   }
   .nav {
-    width: 1400px;
-    min-width: 1400px;
+    width: 1300px;
+    min-width: 1300px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .app {
+    width: 1903px;
+    min-width: 1903px;
+  }
+  .nav {
+    width: 1903px;
+    min-width: 1903px;
+  }
+}
+
+@media (max-width: 1919px) {
+  .app {
+    width: 1600px;
+    min-width: 1600px;
+  }
+  .nav {
+    width: 1600px;
+    min-width: 1600px;
   }
 }
 
