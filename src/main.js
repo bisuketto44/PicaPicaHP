@@ -9,4 +9,5 @@ new Vue({
     render: h => h(App)
 }).$mount("#app")
 
+
 //↑#なしだとApp.vueを読み込めない

@@ -2,6 +2,7 @@ var baseW = 700; //基準となるブレークポイント
 var iOSviewportW = 0;
 var ua = navigator.userAgent.toLowerCase();
 var isiOS = (ua.indexOf("iphone") > -1) || (ua.indexOf("ipod") > -1) || (ua.indexOf("ipad") > -1);
+
 if (isiOS) {
     iOSviewportW = document.documentElement.clientWidth;
 }

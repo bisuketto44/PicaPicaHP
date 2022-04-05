@@ -17,16 +17,6 @@
 
     <div class="contentsWarpper">
       <div class="Incontents">
-        <h2>Vision</h2>
-        <div class="vision">
-          <p>
-            「障がい者とともに働く場」、「誰もがゆったりくつろげる場」<br />気軽に立ち寄っていただける
-            cafe rest pica pica 市役所店<br />利用者、スタッフ
-            一同お待ちしております。<br />
-            (市役所店の説明をもう少し入れても良いかも?）
-          </p>
-        </div>
-
         <h2>Infomation</h2>
 
         <div class="storeExp">
@@ -56,14 +46,6 @@
           </div>
 
           <div class="map">
-            <a
-              href="https://www.facebook.com/picapicasiyakusyoten/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn facebook"
-              ><span class="fa fa-facebook"></span>こちらから</a
-            >
-
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0992261887322!2d135.5987090655309!3d34.62693269467242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600120aa0d2a481f%3A0xc68936edf7c1b1aa!2z77yw772J772D772B77yw772J772D772BIOW4guW9ueaJgOW6lw!5e0!3m2!1sja!2sjp!4v1648110978453!5m2!1sja!2sjp"
               width="400"
@@ -74,12 +56,29 @@
             ></iframe>
           </div>
         </div>
+
+        <h2>Vision</h2>
+        <div class="vision">
+          <p>
+            「障がい者とともに働く場」「誰もがゆったりくつろげる場」<br />気軽に立ち寄っていただける
+            cafe rest pica pica 市役所店<br />利用者 スタッフ
+            一同お待ちしております。<br />
+          </p>
+        </div>
+
         <h2>More</h2>
         <div class="ToLink">
           <ul>
-            <router-link to="/store2_menu">メニュー</router-link>
-            <li><a href="/">その他活動</a></li>
-            <li><a href="/">メンバーさん募集</a></li>
+            <li>
+              <router-link to="/store2_menu"
+                >市役所店メニューはこちら</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/store2_info"
+                >その他の店舗内情報はこちら</router-link
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -105,7 +104,7 @@ export default {
         centerMode: true,
         infiniteScroll: true,
         breakpoints: {
-          400: {
+          100: {
             //この数字は400以上の条件分岐を指す
             itemsToShow: 1,
           },
@@ -127,7 +126,7 @@ export default {
 /* 1980pxのCSS設定 */
 
 /* h2にの設定 */
-h2 {
+.store2 h2 {
   margin-left: 15%;
   font-weight: bold;
   letter-spacing: 3px;
@@ -135,11 +134,33 @@ h2 {
   border-bottom: 1.75px solid rgb(85, 82, 82);
   width: 70%;
   font-size: 28px;
+  margin-bottom: 2%;
 }
 
-p {
+.store2 h3 {
+  font-size: 24.5px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
+.store2 p {
+  font-size: 17px;
+  letter-spacing: 1.75px;
+  color: #444344;
+  font-weight: bold;
+}
+
+.vision p {
   font-size: 17px;
   letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
+li {
+  font-size: 16px;
+  letter-spacing: 1.25px;
   color: #444344;
   font-weight: bold;
 }
@@ -213,13 +234,13 @@ p {
 }
 
 .storeExp div {
-  padding: 3%;
+  padding: 1.25%;
 }
 
 .map {
   display: flex;
   flex-direction: column;
-  margin-top: 125px;
+  margin-top: 100px;
 }
 
 .ToLink {
@@ -228,13 +249,17 @@ p {
   text-align: center;
 }
 
+/* routerLinkはa要素 */
 .ToLink a {
-  text-decoration: none;
+  color: #3b275e;
 }
 
 .ToLink li {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
   padding: 0.5%;
-
   list-style: none;
 }
 </style>
