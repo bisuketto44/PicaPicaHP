@@ -17,8 +17,6 @@ function updateMetaViewport() {
     if (w <= 900) {
         viewportContent = "width=" + 900 + "px,user-scalable=no,shrink-to-fit=yes";
         //それより上は1600widthに固定 
-    } else if (w >= 901 && w <= 1600) {
-        viewportContent = "width=" + 1600 + "px,user-scalable=no,shrink-to-fit=yes";
     } else {
         viewportContent = "width=" + 1600 + "px,user-scalable=no,shrink-to-fit=yes";
     }

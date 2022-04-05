@@ -251,10 +251,10 @@ export default {
             itemsToShow: 1,
           },
           1000: {
-            itemsToShow: 1.75,
+            itemsToShow: 1.9,
           },
           1900: {
-            itemsToShow: 2.2,
+            itemsToShow: 1.9,
           },
         },
       },
