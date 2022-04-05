@@ -112,7 +112,7 @@ body {
   color: #52ca62;
 }
 
-@media (max-width: 2560px) {
+@media (max-width: 9999px) {
   .app {
     width: 1600px;
     min-width: 1600px;
