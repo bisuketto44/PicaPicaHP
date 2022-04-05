@@ -69,18 +69,21 @@ body {
 @media (max-width: 2560px) {
   body {
     width: 1903px;
+    min-width: 1903px;
   }
 }
 
 @media (max-width: 1600px) {
   body {
     width: 1600px;
+    min-width: 1600px;
   }
 }
 
 @media (max-width: 900px) {
   body {
     width: 900px;
+    min-width: 900px;
   }
 }
 
