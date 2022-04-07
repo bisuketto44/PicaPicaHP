@@ -216,14 +216,14 @@ span {
   }
 
   .Store1_MenuBOX img {
-    width: 190px;
-    height: 250px;
+    width: 130px;
+    height: 190px;
     margin: 2%;
   }
 
   .Store1_MenuBOX .air_02 {
-    width: 290px;
-    height: 250px;
+    width: 230px;
+    height: 190px;
   }
 
   .MenuAirFoot {
@@ -247,25 +247,25 @@ span {
   }
 
   .p_1:before {
-    font-size: 14.5px;
+    font-size: 16.5px;
     white-space: pre;
     content: "[モーニングAセット]\A[モーニングBセット]\A[モーニングCセット]";
   }
 
   .p_2:before {
-    font-size: 14.5px;
+    font-size: 16.5px;
     white-space: pre;
     content: "[ピザトーストセット]\A[サンドイッチセット]";
   }
 
   .p_3:before {
-    font-size: 14.5px;
+    font-size: 16.5px;
     white-space: pre;
     content: "[日替わりランチ]\A[パスタ]\A[週替わりハンバーグランチ]\A[週替わりドリアランチ]";
   }
 
   .p_4:before {
-    font-size: 14.5px;
+    font-size: 16.5px;
     white-space: pre;
     content: "[週替わりカレーランチ]\A[週替わりオムライスランチ]\A[週替わりミニハンバーグとミニドリアのコンビネーションランチ]\A[週替わりミニパスタとミニドリアのコンビネーションランチ]";
   }
