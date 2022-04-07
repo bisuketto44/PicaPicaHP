@@ -209,21 +209,21 @@ span {
 @media (max-width: 900px) {
   .Store1_MenuText {
     text-align: center;
-    font-size: 10.5px;
+    font-size: 14.5px;
     letter-spacing: 1px;
     color: #444344;
     font-weight: bold;
   }
 
   .Store1_MenuBOX img {
-    width: 130px;
-    height: 190px;
+    width: 190px;
+    height: 250px;
     margin: 2%;
   }
 
   .Store1_MenuBOX .air_02 {
-    width: 230px;
-    height: 190px;
+    width: 290px;
+    height: 250px;
   }
 
   .MenuAirFoot {
