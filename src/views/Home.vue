@@ -6,7 +6,7 @@
 
     <div class="HomesTOP">
       <h2>●ゆるり福祉会とは</h2>
-      <div class="HOMETEXT">
+      <div class="TOPTEXT2">
         <p>
           2006年4月、自立支援法が施行、10月より本格的に実施され、<br />これまでの障がい者福祉は大きく変わることとなりました。<br />
           社会福祉法人ゆるり福祉会では、仕事及び日々の生活を地域社会で暮らせるよう、<br />毎日通所できるB型を選択し認可されています。<br />
@@ -17,7 +17,7 @@
 
     <div class="Homes">
       <h2>●概要</h2>
-      <div class="HOMETEXT">
+      <div class="TOPTEXT">
         <div class="over">
           <p>○照合 / 社会福祉法人ゆるり福祉会</p>
           <p>○創業 / 1998 年 6月</p>
@@ -43,7 +43,7 @@
 
     <div class="Homes">
       <h2>●沿革</h2>
-      <div class="HOMETEXT">
+      <div class="TOPTEXT">
         <div class="over2">
           <p>1988年 6月 / 東部大阪障がい者労働センター 設立</p>
           <p>1991年 6月 / 無認可作業所 にっこり作業所 設立</p>
@@ -57,15 +57,14 @@
 
     <div class="Homes">
       <h2>●基本理念</h2>
-      <div class="HOMETEXT">
+      <div class="TOPTEXT">
         <div class="over2">
           <p>
             ○利用者の基本的人権を保障および尊重し、障がいの有無に関わらず、<br />
             &nbsp;&nbsp;全ての人々が平等に生活する社会=ノーマライゼーション社会の<br />&nbsp;&nbsp;実現を目指します。
           </p>
           <p>
-            ○利用者一人ひとりの人格・個性を尊重した就労・社会参加・自立支援を実践し、<br />
-            &nbsp;&nbsp;地域社会に開かれた施設作りを目指します。
+            ○利用者一人ひとりの人格・個性を尊重した就労・社会参加・自立支援を実践し、<br />&nbsp;&nbsp;地域社会に開かれた施設作りを目指します。
           </p>
         </div>
       </div>
@@ -74,7 +73,7 @@
     <div class="Homes">
       <h2>●財務諸表 / 定款</h2>
       <div class="TOPTEXTFoot">
-        <div class="HOMETEXT">
+        <div class="TOPTEXT">
           <div class="over2">
             <a
               href="https://www.wam.go.jp/wamnet/zaihyoukaiji/pub/PUB0201000E00.do?_FORMID=PUB0219000&vo_headVO_corporationId=1627106320"
@@ -133,7 +132,7 @@ body {
   height: 60px;
 }
 
-.HOMETEXT {
+.TOPTEXT {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -172,7 +171,7 @@ span {
 }
 
 @media (max-width: 1919px) {
-  .HOMETEXT {
+  .TOPTEXT {
     text-align: center;
     font-size: 15.5px;
     letter-spacing: 2px;
@@ -193,14 +192,22 @@ span {
 }
 
 @media (max-width: 900px) {
-  .HOMETEXT {
+  .TOPTEXT p {
+    font-size: 13.5px;
+    letter-spacing: 0.5px;
+  }
+
+  .TOPTEXT li {
+    font-size: 13.5px;
+    letter-spacing: 0.5px;
+  }
+
+  .TOPTEXT2 {
     text-align: center;
-    font-size: 14px;
+    font-size: 15.5px;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    margin-top: 35px;
-    margin-bottom: 20px;
   }
 
   .Home h2 {
@@ -210,12 +217,8 @@ span {
     color: #313031;
     border-bottom: 1.75px solid rgb(85, 82, 82);
     width: 70%;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 3.5%;
-  }
-
-  .HomesTOP {
-    margin-top: 55px;
   }
 }
 </style>

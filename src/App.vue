@@ -157,6 +157,4 @@ body {
     min-width: 900px;
   }
 }
-
-
 </style>
