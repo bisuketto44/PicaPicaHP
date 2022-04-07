@@ -13,7 +13,7 @@
         <img alt="image1" src="../assets/airport_03.png" />
       </div>
       <div class="Store1_MenuText">
-        <p>
+        <p class="p_1">
           ①トースト、サラダ、フルーツ、スクランブルエッグ or ゆで卵 +
           ドリンク<br />
           ②焼きたてパン2個、サラダ、フルーツ、スクランブルエッグ or ゆで卵 +
@@ -27,7 +27,7 @@
         <img alt="image1" src="../assets/airport_05.png" />
       </div>
       <div class="Store1_MenuText">
-        <p>
+        <p class="p_2">
           ④ピザトースト、サラダ、フルーツ、スクランブルエッグ or ゆで卵 +
           ドリンク<br />
           ⑤ピサンド、サラダ、フルーツ、スクランブルエッグ or ゆで卵 +
@@ -45,7 +45,7 @@
         <img alt="image1" src="../assets/airport_09.png" />
       </div>
       <div class="Store1_MenuText">
-        <p>
+        <p class="p_3">
           ①[日替わりランチ] 本日のメイン、4種の副菜、味噌汁、ごはん<br />
           ②[パスタ] パスタ、お好きなパン2個、サラダ<br />
           ③[週替わりハンバーグランチ] ハンバーグ、小鉢、味噌汁、ごはん<br />
@@ -59,7 +59,7 @@
         <img alt="image1" src="../assets/airport_13.png" />
       </div>
       <div class="Store1_MenuText">
-        <p>
+        <p class="p_4">
           ⑤[日替カレーランチ]
           カレー、サラダ、とんかつ、ごはん、自家製ヨーグルト、らっきょ、福神漬け<br />
           ⑥[週替わりオムライスランチ] オムライス、スープ、サラダ<br />
@@ -209,25 +209,65 @@ span {
 @media (max-width: 900px) {
   .Store1_MenuText {
     text-align: center;
-    font-size: 6.5px;
+    font-size: 10.5px;
     letter-spacing: 1px;
     color: #444344;
     font-weight: bold;
   }
 
   .Store1_MenuBOX img {
-    width: 110px;
-    height: 170px;
+    width: 130px;
+    height: 190px;
     margin: 2%;
   }
 
   .Store1_MenuBOX .air_02 {
-    width: 210px;
-    height: 170px;
+    width: 230px;
+    height: 190px;
   }
 
   .MenuAirFoot {
-    height: 420px;
+    height: 320px;
+  }
+
+  .p_1 {
+    font-size: 0;
+  }
+
+  .p_2 {
+    font-size: 0;
+  }
+
+  .p_3 {
+    font-size: 0;
+  }
+
+  .p_4 {
+    font-size: 0;
+  }
+
+  .p_1:before {
+    font-size: 14.5px;
+    white-space: pre;
+    content: "[モーニングAセット]\A[モーニングBセット]\A[モーニングCセット]";
+  }
+
+  .p_2:before {
+    font-size: 14.5px;
+    white-space: pre;
+    content: "[ピザトーストセット]\A[サンドイッチセット]";
+  }
+
+  .p_3:before {
+    font-size: 14.5px;
+    white-space: pre;
+    content: "[日替わりランチ]\A[パスタ]\A[週替わりハンバーグランチ]\A[週替わりドリアランチ]";
+  }
+
+  .p_4:before {
+    font-size: 14.5px;
+    white-space: pre;
+    content: "[週替わりカレーランチ]\A[週替わりオムライスランチ]\A[週替わりミニハンバーグとミニドリアのコンビネーションランチ]\A[週替わりミニパスタとミニドリアのコンビネーションランチ]";
   }
 }
 </style>
