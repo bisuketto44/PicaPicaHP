@@ -19,7 +19,7 @@
       <div class="Incontents">
         <h2>Infomation</h2>
 
-        <div class="storeExp">
+        <div class="storeEXP2">
           <div class="EXP">
             <h3>cafe rest pica pica 市役所店</h3>
             <p>ご連絡</p>
@@ -227,7 +227,7 @@ li {
 }
 
 /* 親要素をflexにして、その配下のdivを2分割(横並びにします) */
-.storeExp {
+.storeEXP2 {
   /* 左右から見て中央寄せに */
   justify-content: center;
   /* 上下から見て中央寄せに */
@@ -236,7 +236,7 @@ li {
   height: 550px;
 }
 
-.storeExp div {
+.storeEXP2 div {
   padding: 1.25%;
 }
 
@@ -264,5 +264,68 @@ li {
   font-weight: bold;
   padding: 0.5%;
   list-style: none;
+}
+
+@media (max-width: 1919px) {
+  .map {
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+
+  .storeEXP2 {
+    /* 左右から見て中央寄せに */
+    /* 上下から見て中央寄せに */
+    /* align-items: center; */
+    margin-left: 28.5%;
+    display: block;
+    height: 900px;
+  }
+}
+
+@media (max-width: 900px) {
+  .map {
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+
+  .storeEXP2 {
+    /* 左右から見て中央寄せに */
+    /* 上下から見て中央寄せに */
+    /* align-items: center; */
+    margin-left: 19.5%;
+    display: block;
+    height: 820px;
+  }
+
+  .store2 p {
+    font-size: 14px;
+    letter-spacing: 1.75px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .vision p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  li {
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .store2 h3 {
+    font-size: 24.5px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+    margin-left: 60px;
+  }
+
+  
 }
 </style>

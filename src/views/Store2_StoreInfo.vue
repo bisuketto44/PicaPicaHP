@@ -5,7 +5,7 @@
       <h1>Others<span>市役所店</span></h1>
     </div>
 
-    <div class="Others">
+    <div class="OthersTOP">
       <h2>●お子様とご一緒に</h2>
       <div class="OtherBOX">
         <div class="okosama">
@@ -173,5 +173,30 @@ span {
 
 .footerContent {
   padding-bottom: 50px;
+}
+
+.OthersTOP {
+  margin-top: 75px;
+}
+
+@media (max-width: 1919px) {
+  .OtherText {
+    text-align: center;
+    font-size: 14.5px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .OtherBOX img {
+    width: 190px;
+    height: 250px;
+    margin: 2%;
+  }
+
+  .OtherBOX .air_02 {
+    width: 290px;
+    height: 250px;
+  }
 }
 </style>

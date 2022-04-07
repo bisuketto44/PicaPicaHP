@@ -1,5 +1,5 @@
 <template>
-  <div class="store2">
+  <div class="store3">
     <div class="hooper-sample">
       <!-- itemsToShowは１マスの大きさ(※hoopersettingsを設定する) -->
       <hooper :settings="hooperSettings">
@@ -271,7 +271,7 @@ export default {
 /* 1980pxのCSS設定 */
 
 /* h2にの設定 */
-.store2 h2 {
+.store3 h2 {
   margin-left: 15%;
   font-weight: bold;
   letter-spacing: 3px;
@@ -282,14 +282,16 @@ export default {
   margin-bottom: 2%;
 }
 
-.store2 h3 {
+.store3 h3 {
   font-size: 24.5px;
   letter-spacing: 2px;
+  margin-left: 30px;
+  margin-bottom: 40px;
   color: #444344;
   font-weight: bold;
 }
 
-.store2 p {
+.store3 p {
   font-size: 17px;
   letter-spacing: 1.75px;
   color: #444344;
@@ -383,8 +385,6 @@ li {
 }
 
 .map {
-  display: flex;
-  flex-direction: column;
   margin-top: 100px;
 }
 
@@ -487,49 +487,49 @@ li {
 #img17 {
   position: absolute;
   left: 30%;
-  top: 63%;
+  top: 69%;
 }
 
 #img18 {
   position: absolute;
   left: 36.5%;
-  top: 63%;
+  top: 69%;
 }
 
 #img19 {
   position: absolute;
   left: 47%;
-  top: 63%;
+  top: 69%;
 }
 
 #img20 {
   position: absolute;
   left: 55%;
-  top: 63%;
+  top: 69%;
 }
 
 #img21 {
   position: absolute;
   left: 58%;
-  top: 63%;
+  top: 69%;
 }
 
 #img22 {
   position: absolute;
   left: 60%;
-  top: 68%;
+  top: 69%;
 }
 
 #img23 {
   position: absolute;
   left: 65%;
-  top: 63%;
+  top: 69%;
 }
 
 #img24 {
   position: absolute;
   left: 65%;
-  top: 68%;
+  top: 69%;
 }
 
 #img25 {
@@ -542,5 +542,183 @@ li {
   position: absolute;
   left: 34.5%;
   top: 77%;
+}
+
+@media (max-width: 1919px) {
+  .map {
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+
+  .storeExp {
+    /* 左右から見て中央寄せに */
+    /* 上下から見て中央寄せに */
+    /* align-items: center; */
+    margin-left: 28.5%;
+    display: block;
+    height: 900px;
+  }
+
+  #img17 {
+    position: absolute;
+    left: 22.5%;
+    top: 69%;
+  }
+
+  #img18 {
+    position: absolute;
+    left: 32.5%;
+    top: 69%;
+  }
+
+  #img19 {
+    position: absolute;
+    left: 47%;
+    top: 69%;
+  }
+
+  #img20 {
+    position: absolute;
+    left: 57%;
+    top: 69%;
+  }
+
+  #img21 {
+    position: absolute;
+    left: 62%;
+    top: 69%;
+  }
+
+  #img22 {
+    position: absolute;
+    left: 62.5%;
+    top: 73%;
+  }
+
+  #img23 {
+    position: absolute;
+    left: 73%;
+    top: 69%;
+  }
+
+  #img24 {
+    position: absolute;
+    left: 70%;
+    top: 73%;
+  }
+
+  #img25 {
+    position: absolute;
+    left: 22%;
+    top: 80%;
+  }
+
+  #img26 {
+    position: absolute;
+    left: 29.5%;
+    top: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .map {
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+
+  .storeExp {
+    /* 左右から見て中央寄せに */
+    /* 上下から見て中央寄せに */
+    /* align-items: center; */
+    margin-left: 19.5%;
+    display: block;
+    height: 850px;
+  }
+
+  .store3 p {
+    font-size: 14px;
+    letter-spacing: 1.75px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .vision p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  li {
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .BaseImg img{
+    height: 320px;
+    width: 620px;
+  }
+
+  #img17 {
+    position: absolute;
+    left: 19.5%;
+    top: 69%;
+  }
+
+  #img18 {
+    position: absolute;
+    left: 29.5%;
+    top: 69%;
+  }
+
+  #img19 {
+    position: absolute;
+    left: 47%;
+    top: 69%;
+  }
+
+  #img20 {
+    position: absolute;
+    left: 57%;
+    top: 69%;
+  }
+
+  #img21 {
+    position: absolute;
+    left: 62%;
+    top: 69%;
+  }
+
+  #img22 {
+    position: absolute;
+    left: 62.5%;
+    top: 73%;
+  }
+
+  #img23 {
+    position: absolute;
+    left: 73%;
+    top: 69%;
+  }
+
+  #img24 {
+    position: absolute;
+    left: 70%;
+    top: 73%;
+  }
+
+  #img25 {
+    position: absolute;
+    left: 18%;
+    top: 80%;
+  }
+
+  #img26 {
+    position: absolute;
+    left: 24.5%;
+    top: 80%;
+  }
 }
 </style>

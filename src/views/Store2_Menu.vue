@@ -5,7 +5,7 @@
       <h1>Menu<span>市役所店</span></h1>
     </div>
 
-    <div class="menus">
+    <div class="menusTOP">
       <h2>●モーニングサービス<span>9:00 ~ 11:00</span></h2>
       <div class="menuBOX">
         <img alt="image1" src="../assets/city_morning01.png" />
@@ -146,7 +146,6 @@ body {
   letter-spacing: 2px;
   color: #444344;
   font-weight: bold;
-  
 }
 
 .MenuTextFoot {
@@ -164,5 +163,33 @@ body {
 span {
   font-size: 20px;
   margin-left: 20px;
+}
+
+.menusTOP {
+  margin-top: 75px;
+}
+
+@media (max-width: 1919px) {
+  .menuText {
+    text-align: center;
+    font-size: 14.5px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .menuBOX img {
+    width: 190px;
+    height: 250px;
+    margin: 2%;
+  }
+
+  .menuBOX .air_02 {
+    width: 290px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 900px) {
 }
 </style>
