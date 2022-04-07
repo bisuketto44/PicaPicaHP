@@ -6,7 +6,7 @@
 
     <div class="HomesTOP">
       <h2>●ゆるり福祉会とは</h2>
-      <div class="TOPTEXT2">
+      <div class="HomeTopText2">
         <p>
           2006年4月、自立支援法が施行、10月より本格的に実施され、<br />これまでの障がい者福祉は大きく変わることとなりました。<br />
           社会福祉法人ゆるり福祉会では、仕事及び日々の生活を地域社会で暮らせるよう、<br />毎日通所できるB型を選択し認可されています。<br />
@@ -140,6 +140,14 @@ body {
   font-weight: bold;
 }
 
+.HomeTopText2 {
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
 .TOPTEXTFoot {
   height: 90px;
   margin-right: 70px;
@@ -179,6 +187,14 @@ span {
     font-weight: bold;
   }
 
+  .HomeTopText2 {
+    text-align: center;
+    font-size: 15.5px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
   .Home h2 {
     margin-left: 15%;
     font-weight: bold;
@@ -193,18 +209,18 @@ span {
 
 @media (max-width: 900px) {
   .TOPTEXT p {
-    font-size: 13.5px;
+    font-size: 12.5px;
     letter-spacing: 0.5px;
   }
 
   .TOPTEXT li {
-    font-size: 13.5px;
+    font-size: 12.5px;
     letter-spacing: 0.5px;
   }
 
-  .TOPTEXT2 {
+  .HomeTopText2 p {
     text-align: center;
-    font-size: 15.5px;
+    font-size: 12.5px;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
