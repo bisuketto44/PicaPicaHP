@@ -7,12 +7,12 @@
 
     <div class="menusTOP">
       <h2>●モーニングサービス<span>8:00 ~ 11:00</span></h2>
-      <div class="menuBOX">
+      <div class="Store1_MenuBOX">
         <img alt="image1" src="../assets/airport_01.png" />
         <img alt="image1" class="air_02" src="../assets/airport_02.png" />
         <img alt="image1" src="../assets/airport_03.png" />
       </div>
-      <div class="menuText">
+      <div class="Store1_MenuText">
         <p>
           ①トースト、サラダ、フルーツ、スクランブルエッグ or ゆで卵 +
           ドリンク<br />
@@ -22,11 +22,11 @@
           ゆで卵 + ドリンク
         </p>
       </div>
-      <div class="menuBOX">
+      <div class="Store1_MenuBOX">
         <img alt="image1" src="../assets/airport_04.png" />
         <img alt="image1" src="../assets/airport_05.png" />
       </div>
-      <div class="menuText">
+      <div class="Store1_MenuText">
         <p>
           ④ピザトースト、サラダ、フルーツ、スクランブルエッグ or ゆで卵 +
           ドリンク<br />
@@ -38,13 +38,13 @@
 
     <div class="menus">
       <h2>●ランチタイム<span>11:30 ~ 14:15</span></h2>
-      <div class="menuBOX">
+      <div class="Store1_MenuBOX">
         <img alt="image1" src="../assets/airport_06.png" />
         <img alt="image1" src="../assets/airport_07.png" />
         <img alt="image1" src="../assets/airport_08.png" />
         <img alt="image1" src="../assets/airport_09.png" />
       </div>
-      <div class="menuText">
+      <div class="Store1_MenuText">
         <p>
           ①[日替わりランチ] 本日のメイン、4種の副菜、味噌汁、ごはん<br />
           ②[パスタ] パスタ、お好きなパン2個、サラダ<br />
@@ -52,13 +52,13 @@
           ④[週替わりドリアンランチ] ドリア、お好きなパン1個、スープ、サラダ
         </p>
       </div>
-      <div class="menuBOX">
+      <div class="Store1_MenuBOX">
         <img alt="image1" src="../assets/airport_10.png" />
         <img alt="image1" src="../assets/airport_11.png" />
         <img alt="image1" src="../assets/airport_12.jpg" />
         <img alt="image1" src="../assets/airport_13.png" />
       </div>
-      <div class="menuText">
+      <div class="Store1_MenuText">
         <p>
           ⑤[日替カレーランチ]
           カレー、サラダ、とんかつ、ごはん、自家製ヨーグルト、らっきょ、福神漬け<br />
@@ -76,12 +76,12 @@
     <div class="menus">
       <h2>●その他</h2>
       <div class="MenuAirFoot">
-        <div class="menuBOX">
+        <div class="Store1_MenuBOX">
           <img alt="image1" src="../assets/airport_14.png" />
           <img alt="image1" src="../assets/airport_15.png" />
           <img alt="image1" src="../assets/airport_16.png" />
         </div>
-        <div class="menuText">
+        <div class="Store1_MenuText">
           <p>
             その他、焼き菓子やプリン、パン、お子様ランチ等もご用意しております
           </p>
@@ -130,12 +130,12 @@ body {
   height: 60px;
 }
 
-.menuBOX {
+.Store1_MenuBOX {
   text-align: center;
   margin-top: 1.5%;
 }
 
-.menuBOX a {
+.Store1_MenuBOX a {
   text-align: center;
   font-size: 20px;
   letter-spacing: 2px;
@@ -143,18 +143,18 @@ body {
   font-weight: bold;
 }
 
-.menuBOX img {
+.Store1_MenuBOX img {
   width: 220px;
   height: 280px;
   margin: 2%;
 }
 
-.menuBOX .air_02 {
+.Store1_MenuBOX .air_02 {
   width: 320px;
   height: 280px;
 }
 
-.menuText {
+.Store1_MenuText {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -186,7 +186,7 @@ span {
 }
 
 @media (max-width: 1919px) {
-  .menuText {
+  .Store1_MenuText {
     text-align: center;
     font-size: 14.5px;
     letter-spacing: 2px;
@@ -194,20 +194,20 @@ span {
     font-weight: bold;
   }
 
-  .menuBOX img {
+  .Store1_MenuBOX img {
     width: 190px;
     height: 250px;
     margin: 2%;
   }
 
-  .menuBOX .air_02 {
+  .Store1_MenuBOX .air_02 {
     width: 290px;
     height: 250px;
   }
 }
 
 @media (max-width: 900px) {
-  .menuText {
+  .Store1_MenuText {
     text-align: center;
     font-size: 6.5px;
     letter-spacing: 1px;
@@ -215,19 +215,19 @@ span {
     font-weight: bold;
   }
 
-  .menuBOX img {
-    width: 130px;
-    height: 190px;
+  .Store1_MenuBOX img {
+    width: 110px;
+    height: 170px;
     margin: 2%;
   }
 
-  .menuBOX .air_02 {
-    width: 230px;
-    height: 190px;
+  .Store1_MenuBOX .air_02 {
+    width: 210px;
+    height: 170px;
   }
 
   .MenuAirFoot {
-    height: 320px;
+    height: 420px;
   }
 }
 </style>
