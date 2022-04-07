@@ -632,25 +632,25 @@ li {
     /* align-items: center; */
     margin-left: 19.5%;
     display: block;
-    height: 850px;
+    height: 870px;
   }
 
   .store3 p {
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 1.75px;
     color: #444344;
     font-weight: bold;
   }
 
   .vision p {
-    font-size: 14px;
+    font-size: 15.5px;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
   }
 
   li {
-    font-size: 14px;
+    font-size: 15.5px;
     letter-spacing: 1.25px;
     color: #444344;
     font-weight: bold;

@@ -191,5 +191,35 @@ span {
 }
 
 @media (max-width: 900px) {
+  .menuText {
+    text-align: center;
+    font-size: 14.5px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .MenuTextFoot {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .menus {
+    margin-top: 35px;
+  }
+
+  .menuBOX img {
+    width: 160px;
+    height: 220px;
+    margin: 2%;
+  }
+
+  .menuBOX .air_02 {
+    width: 260px;
+    height: 220px;
+  }
 }
 </style>

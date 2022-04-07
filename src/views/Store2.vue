@@ -298,21 +298,21 @@ li {
   }
 
   .store2 p {
-    font-size: 14px;
+    font-size: 15.5px;
     letter-spacing: 1.75px;
     color: #444344;
     font-weight: bold;
   }
 
   .vision p {
-    font-size: 14px;
+    font-size: 15.5px;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
   }
 
   li {
-    font-size: 14px;
+    font-size: 15.5px;
     letter-spacing: 1.25px;
     color: #444344;
     font-weight: bold;

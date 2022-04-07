@@ -15,7 +15,7 @@
       <div class="OtherText">
         <p>
           cafe rest pica pica 市役所店では、<br />赤ちゃんベッド・子供椅子をご利用いただけます。
-          <br />はじめて赤ちゃんとお出かけ、お子様と八尾図書館をご利用する<br />そんなお母さん方に安心してごゆっくりしていただければと思っております。
+          <br />はじめて赤ちゃんとお出かけ、お子様と八尾図書館をご利用する<br />そんなお母さん方に安心して<br />ごゆっくりしていただければと思っております。
           <br />お子様と一緒だとなかなかcafeなどにいけないと思われる<br />お母さんを応援しています。
         </p>
       </div>
@@ -198,5 +198,41 @@ span {
     width: 290px;
     height: 250px;
   }
+}
+
+@media (max-width: 900px) {
+  .OtherText {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .OtherTextFoot {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Others {
+    margin-top: 45px;
+  }
+
+  .OtherBOX img {
+    width: 140px;
+    height: 200px;
+    margin: 2%;
+  }
+
+  .OtherBOX .event {
+    width: 300px;
+    height: 200px;
+    margin: 2%;
+  }
+
+
 }
 </style>

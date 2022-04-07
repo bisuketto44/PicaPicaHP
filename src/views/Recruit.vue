@@ -7,10 +7,10 @@
 
     <div class="recTOP">
       <h2>●利用者さん募集</h2>
-      <div class="toptext">
+      <div class="recToptext">
         <p>
           PicaPica作業所で一緒に働いてみませんか？<br />
-          お店の接客・パン作り・弁当作り・厨房作業・軽作業など、いろいろなお仕事があります。<br />
+          お店の接客・パン作り・弁当作り・厨房作業・軽作業など<br>色々なお仕事があります。
           お気軽にお問い合わせください。<br /><br />℡ 072-997-7475
         </p>
       </div>
@@ -34,7 +34,7 @@
       </div>
       <div class="menuText">
         <p>
-          PicaPica空港店では、お店でお出しするクッキーやお菓子を丁寧に製造しています。<br />クッキーの仕上げラッピングは牛乳パック再生かみすき和紙と<br />PicaPicaメンバーさんのイラストでかわいくなっています。
+          PicaPica空港店では、クッキーやお菓子を製造しています。<br />クッキーの仕上げラッピングは牛乳パック再生かみすき和紙と<br />PicaPicaメンバーさんのイラストでかわいくなっています。
         </p>
       </div>
     </div>
@@ -46,7 +46,7 @@
       </div>
       <div class="menuText">
         <p>
-          メンバー・スタッフの毎日の昼食作りから始まったお弁当作りも<br />調理場や食材を吟味し地域の方々に宅配弁当として提供するまでになりました。<br />仕込み作業・調理・弁当詰め・配達・回収・洗浄などを行います。
+          メンバー・スタッフの毎日の昼食作りから始まったお弁当作りも<br />調理場や食材を吟味し地域の方々に<br>宅配弁当として提供するまでになりました。<br />仕込み作業・調理・弁当詰め・配達・回収・洗浄などを行います。
         </p>
       </div>
     </div>
@@ -54,7 +54,7 @@
     <div class="menus">
       <h2>●その他</h2>
       <div class="MenuTextFoot">
-        <div class="menuText">
+        <div class="menuTextfotter">
           <p>
             その他、パン作りや軽作業、畑仕事なども業務もあります。
             <br />
@@ -137,7 +137,15 @@ body {
   font-weight: bold;
 }
 
-.toptext {
+.menuTextfotter {
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
+.recToptext {
   margin-top: 100px;
   text-align: center;
   font-size: 17px;
@@ -187,7 +195,7 @@ span {
     height: 250px;
   }
 
-  .toptext {
+  .recToptext {
     margin-top: 100px;
     text-align: center;
     font-size: 14.5px;
@@ -198,5 +206,53 @@ span {
 }
 
 @media (max-width: 900px) {
+  .menuText {
+    text-align: center;
+    font-size: 9.5px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .recTOP .recToptext {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 10.5px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .menuTextfotter {
+    text-align: center;
+    font-size: 20.5px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .Recruit img {
+    width: 160px;
+    height: 220px;
+    margin: 2%;
+  }
+
+  .Recrui .air_02 {
+    width: 260px;
+    height: 220px;
+  }
+
+  .recToptext {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 14.5px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .menus{
+    margin-top: 50px;
+  }
 }
 </style>
