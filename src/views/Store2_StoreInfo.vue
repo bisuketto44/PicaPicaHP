@@ -45,7 +45,26 @@
       <div class="OtherText">
         <p>
           個性あふれる創作作家の方、作業所で働く障がい者の方などによる
-          <br />様々な雑貨の販売を行っております。
+          <br />様々な雑貨の販売を行っております。<br /><br />
+          <a
+            href="http://blog.livedoor.jp/yumusi221/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="fa fa-gratipay"></span>皮物手作り SATOKOさん</a
+          >
+          <br />
+          <a
+            href="https://www.instagram.com/syachiask/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="fa fa-gratipay"></span>アクセサリー A*skさん</a
+          ><br />
+          <a
+            href="https://ameblo.jp/hiro-sav0/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="fa fa-gratipay"></span>手作り石鹸 hiroさん</a
+          >
         </p>
       </div>
     </div>
@@ -156,6 +175,10 @@ body {
   font-weight: bold;
 }
 
+.OtherText a {
+  color: #614261;
+}
+
 .Others {
   margin-top: 3.25%;
 }
@@ -232,7 +255,5 @@ span {
     height: 200px;
     margin: 2%;
   }
-
-
 }
 </style>

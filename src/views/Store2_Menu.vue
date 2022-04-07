@@ -70,7 +70,7 @@
             href="https://www.facebook.com/picapicasiyakusyoten/"
             target="_blank"
             rel="noopener noreferrer"
-            class="btn facebook"
+            
             ><span class="fa fa-facebook"></span>今週のメニュー詳細</a
           >
         </div>
