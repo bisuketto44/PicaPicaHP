@@ -42,6 +42,7 @@ export const routes = [{
 
 export default new Router({
 
+  mode: 'history',
   base: '/PicaPicaHP/',
   // 遷移を記述します
   routes,
