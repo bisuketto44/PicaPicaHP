@@ -1,5 +1,6 @@
 <template>
   <div class="Home">
+    
     <div class="PicaPicaTop">
       <h1>社会福祉法人 ゆるり福祉会<span>Pica Pica</span></h1>
     </div>
@@ -138,7 +139,6 @@ body {
 
 .TOPTEXT {
   text-align: center;
-  font-size: 17px;
   letter-spacing: 2px;
   color: #444344;
   font-weight: bold;
@@ -146,7 +146,6 @@ body {
 
 .HomeTopText2 {
   text-align: center;
-  font-size: 17px;
   letter-spacing: 2px;
   color: #444344;
   font-weight: bold;
