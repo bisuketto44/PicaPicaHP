@@ -209,17 +209,17 @@ span {
 
 @media (max-width: 900px) {
   .TOPTEXT p {
-    font-size: small;
+    font-size: smaller;
     letter-spacing: 1px;
   }
 
   .TOPTEXT li {
-    font-size: small;
+    font-size: smaller;
     letter-spacing: 1px;
   }
 
   .HomeTopText2 p {
-    font-size: small;
+    font-size: smaller;
   }
 
   .Home h2 {
