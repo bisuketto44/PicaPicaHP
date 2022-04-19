@@ -217,7 +217,7 @@ span {
   .recTOP .recToptext p {
     margin-top: 100px;
     text-align: center;
-    font-size: small;
+    font-size: x-small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
@@ -225,7 +225,7 @@ span {
 
   .menuTextfotter p{
     text-align: center;
-    font-size: 20.5px;
+    font-size: large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;

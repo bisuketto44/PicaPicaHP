@@ -209,7 +209,7 @@ span {
 @media (max-width: 900px) {
   .Store1_MenuText {
     text-align: center;
-    font-size: 14.5px;
+    font-size: small;
     letter-spacing: 1px;
     color: #444344;
     font-weight: bold;
@@ -247,25 +247,25 @@ span {
   }
 
   .p_1:before {
-    font-size: 16.5px;
+    font-size: small;
     white-space: pre;
     content: "[モーニングAセット]\A[モーニングBセット]\A[モーニングCセット]";
   }
 
   .p_2:before {
-    font-size: 16.5px;
+    font-size: small;
     white-space: pre;
     content: "[ピザトーストセット]\A[サンドイッチセット]";
   }
 
   .p_3:before {
-    font-size: 16.5px;
+    font-size: small;
     white-space: pre;
     content: "[日替わりランチ]\A[パスタ]\A[週替わりハンバーグランチ]\A[週替わりドリアランチ]";
   }
 
   .p_4:before {
-    font-size: 16.5px;
+    font-size: small;
     white-space: pre;
     content: "[週替わりカレーランチ]\A[週替わりオムライスランチ]\A[週替わりミニハンバーグとミニドリアのコンビネーションランチ]\A[週替わりミニパスタとミニドリアのコンビネーションランチ]";
   }

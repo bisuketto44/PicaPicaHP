@@ -193,7 +193,7 @@ span {
 @media (max-width: 900px) {
   .menuText {
     text-align: center;
-    font-size: 14.5px;
+    font-size: small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
