@@ -22,7 +22,7 @@
         <img alt="image1" src="../assets/city_member01.png" />
         <img alt="image1" src="../assets/city_member02.png" />
       </div>
-      <div class="menuText">
+      <div class="Recrute_Texts">
         <p>カフェ業務全般の中から個々にできる作業を探していきます。</p>
       </div>
     </div>
@@ -32,7 +32,7 @@
       <div class="Recruit">
         <img alt="image1" class="image1" src="../assets/airport_member01.jpg" />
       </div>
-      <div class="menuText">
+      <div class="Recrute_Texts">
         <p>
           PicaPica空港店では、クッキーやお菓子を製造しています。<br />クッキーの仕上げラッピングは牛乳パック再生かみすき和紙と<br />PicaPicaメンバーさんのイラストでかわいくなっています。
         </p>
@@ -44,7 +44,7 @@
       <div class="Recruit">
         <img alt="image1" class="image1" src="../assets/airport_member03.jpg" />
       </div>
-      <div class="menuText">
+      <div class="Recrute_Texts">
         <p>
           メンバー・スタッフの毎日の昼食作りから始まったお弁当作りも<br />調理場や食材を吟味し地域の方々に<br>宅配弁当として提供するまでになりました。<br />仕込み作業・調理・弁当詰め・配達・回収・洗浄などを行います。
         </p>
@@ -129,7 +129,7 @@ body {
   height: 230px;
 }
 
-.menuText {
+.Recrute_Texts {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -176,7 +176,7 @@ span {
 }
 
 @media (max-width: 1919px) {
-  .menuText {
+  .Recrute_Texts {
     text-align: center;
     font-size: 14.5px;
     letter-spacing: 2px;
@@ -206,9 +206,9 @@ span {
 }
 
 @media (max-width: 900px) {
-  .menuText {
+  .Recrute_Texts {
     text-align: center;
-    font-size: 9.5px;
+    font-size: 12.5px;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
