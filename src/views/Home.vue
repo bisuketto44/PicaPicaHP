@@ -89,6 +89,10 @@
 </template>
 
 <style>
+.Home {
+  height: 100%;
+}
+
 body {
   width: 100%;
 }
