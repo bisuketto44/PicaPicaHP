@@ -34,8 +34,9 @@
         <p>○事前認可 / 指定障がい者福祉サービス事業者</p>
         <p>○障がい福祉サービスの種類 / 就労継続支援B型(35名)</p>
         <p>
-          ○事業内容 /
-          パン・クッキー・ランチ(パスタ料理他)・軽食・喫茶・宅配弁当<br />陶芸・さをり・河内木綿・かみすき和紙・縫製・野菜づくりなど
+          ○事業内容 / パン・クッキー・ランチ(パスタ料理他)
+          <br />&nbsp;&nbsp;軽食・喫茶・宅配弁当・陶芸・さをり・河内木綿<br />
+          &nbsp;&nbsp;かみすき和紙・縫製・野菜づくりなど
         </p>
       </div>
     </div>
@@ -70,14 +71,12 @@
     <div class="Homes">
       <h2>●財務諸表 / 定款</h2>
       <div class="TOPTEXTFoot">
-        <div class="over2">
-          <a
-            href="https://www.wam.go.jp/wamnet/zaihyoukaiji/pub/PUB0201000E00.do?_FORMID=PUB0219000&vo_headVO_corporationId=1627106320"
-            target="_blank"
-            rel="noopener noreferrer"
-            >掲載情報はこちら</a
-          >
-        </div>
+        <a
+          href="https://www.wam.go.jp/wamnet/zaihyoukaiji/pub/PUB0201000E00.do?_FORMID=PUB0219000&vo_headVO_corporationId=1627106320"
+          target="_blank"
+          rel="noopener noreferrer"
+          >掲載情報はこちら</a
+        >
       </div>
     </div>
   </div>
@@ -141,7 +140,11 @@
 
 .TOPTEXTFoot {
   height: 90px;
-  margin-right: 70px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #3b275e;
+  font-weight: bold;
 }
 
 .Homes {
@@ -154,12 +157,20 @@ span {
 }
 
 .over {
-  margin-top: 35px;
+  margin-top: 75px;
+  margin-bottom: 75px;
   margin-left: 40.5%;
 }
 
 .over2 {
+  margin-top: 75px;
+  margin-bottom: 75px;
   text-align: center;
+}
+
+.HomeTopText2 {
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 .over p {
@@ -170,6 +181,20 @@ span {
 }
 
 .over2 p {
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
+.over2 li {
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
+.over li {
   font-size: 17px;
   letter-spacing: 2px;
   color: #444344;
@@ -222,21 +247,21 @@ span {
   }
 
   .over li {
-    font-size: x-small;
+    font-size: xx-small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
   }
 
   .over2 p {
-    font-size: x-small;
+    font-size: xx-small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
   }
 
   .over2 li {
-    font-size: x-small;
+    font-size: xx-small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
@@ -254,17 +279,6 @@ span {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-  }
-
-  .Home h2 {
-    margin-left: 15%;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color: #313031;
-    border-bottom: 1.75px solid rgb(85, 82, 82);
-    width: 70%;
-    font-size: large;
-    margin-bottom: 3.5%;
   }
 }
 </style>
