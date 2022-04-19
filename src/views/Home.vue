@@ -3,19 +3,19 @@
     <div class="PicaPicaTop">
       <h1>社会福祉法人 ゆるり福祉会<span>Pica Pica</span></h1>
     </div>
-
-    <div class="HomesTOP">
-      <h2>●ゆるり福祉会とは</h2>
-      <div class="HomeTopText2">
-        <p>
-          2006年4月、自立支援法が施行、10月より本格的に実施され、<br />これまでの障がい者福祉は大きく変わることとなりました。<br />
-          社会福祉法人ゆるり福祉会では、仕事及び日々の生活を地域社会で暮らせるよう、<br />毎日通所できるB型を選択し認可されています。<br />
-          スタッフ、メンバー一丸となって「ともに」仕事をしています。
-        </p>
-      </div>
-    </div>
     <div class="contentsWarpper">
       <div class="Incontents">
+        <div class="HomesTOP">
+          <h2>●ゆるり福祉会とは</h2>
+          <div class="HomeTopText2">
+            <p>
+              2006年4月、自立支援法が施行、10月より本格的に実施され、<br />これまでの障がい者福祉は大きく変わることとなりました。<br />
+              社会福祉法人ゆるり福祉会では、仕事及び日々の生活を地域社会で暮らせるよう、<br />毎日通所できるB型を選択し認可されています。<br />
+              スタッフ、メンバー一丸となって「ともに」仕事をしています。
+            </p>
+          </div>
+        </div>
+
         <div class="Homes">
           <h2>●概要</h2>
           <div class="TOPTEXT">
@@ -215,28 +215,35 @@ span {
 }
 
 @media (max-width: 900px) {
+  .Home p {
+    font-size: 18px;
+    letter-spacing: 1.75px;
+    color: #444344;
+    font-weight: bold;
+  }
+
   .over p {
-    font-size: small;
+    font-size: 15.5px;
     letter-spacing: 1px;
   }
 
   .over li {
-    font-size: small;
+    font-size: 15.5px;
     letter-spacing: 1px;
   }
 
   .over2 p {
-    font-size: small;
+    font-size: 15.5px;
     letter-spacing: 1px;
   }
 
   .over2 li {
-    font-size: small;
+    font-size: 15.5px;
     letter-spacing: 1px;
   }
 
   .HomeTopText2 p {
-    font-size: small;
+    font-size: 15.5px;
   }
 
   .Home h2 {
