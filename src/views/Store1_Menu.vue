@@ -13,13 +13,10 @@
         <img alt="image1" src="../assets/airport_03.png" />
       </div>
       <div class="Store1_MenuText">
-        <p class="p_1">
-          ①トースト、サラダ、フルーツ、スクランブルエッグ or ゆで卵 +
-          ドリンク<br />
-          ②焼きたてパン2個、サラダ、フルーツ、スクランブルエッグ or ゆで卵 +
-          ドリンク<br />
-          ③トースト&焼き立てパン1個、サラダ、フルーツ、スクランブルエッグ or
-          ゆで卵 + ドリンク
+        <p>
+          ①[モーニングAセット] <br />
+          ②[モーニングBセット] <br />
+          ③[モーニングCセット]
         </p>
       </div>
       <div class="Store1_MenuBOX">
@@ -27,12 +24,7 @@
         <img alt="image1" src="../assets/airport_05.png" />
       </div>
       <div class="Store1_MenuText">
-        <p class="p_2">
-          ④ピザトースト、サラダ、フルーツ、スクランブルエッグ or ゆで卵 +
-          ドリンク<br />
-          ⑤ピサンド、サラダ、フルーツ、スクランブルエッグ or ゆで卵 +
-          ドリンク<br />
-        </p>
+        <p>①[ピザトーストセット] <br />②[サンドイッチセット]</p>
       </div>
     </div>
 
@@ -45,11 +37,9 @@
         <img alt="image1" src="../assets/airport_09.png" />
       </div>
       <div class="Store1_MenuText">
-        <p class="p_3">
-          ①[日替わりランチ] 本日のメイン、4種の副菜、味噌汁、ごはん<br />
-          ②[パスタ] パスタ、お好きなパン2個、サラダ<br />
-          ③[週替わりハンバーグランチ] ハンバーグ、小鉢、味噌汁、ごはん<br />
-          ④[週替わりドリアンランチ] ドリア、お好きなパン1個、スープ、サラダ
+        <p>
+          ①[日替わりランチ] <br />②[パスタ] <br />
+          ③[週替わりハンバーグランチ] <br />④[週替わりドリアランチ]
         </p>
       </div>
       <div class="Store1_MenuBOX">
@@ -59,16 +49,11 @@
         <img alt="image1" src="../assets/airport_13.png" />
       </div>
       <div class="Store1_MenuText">
-        <p class="p_4">
-          ⑤[日替カレーランチ]
-          カレー、サラダ、とんかつ、ごはん、自家製ヨーグルト、らっきょ、福神漬け<br />
-          ⑥[週替わりオムライスランチ] オムライス、スープ、サラダ<br />
-          ⑦[週替わりハンバーグとミニドリアのコンビネーションランチ]
-          ミニハンバーグ、ミニドリア<br />
-          サラダ、小ごはん&味噌汁 or お好きなパン1個&スープ<br />
-          ⑧[週替わりミニパスタ、ミニドリアのコンビネーションランチ]
-          ミニパスタ、ミニドリア<br />
-          お好きなパン1個、スープ、サラダ
+        <p>
+          ①[週替わりカレーランチ] <br />②[週替わりオムライスランチ]
+          <br />③[週替わりミニハンバーグとミニドリアのコンビネーションランチ]
+          <br />
+          ④[週替わりミニパスタとミニドリアのコンビネーションランチ]
         </p>
       </div>
     </div>
@@ -207,7 +192,7 @@ span {
 }
 
 @media (max-width: 900px) {
-  .Store1_MenuText {
+  .Store1_MenuText p {
     text-align: center;
     font-size: small;
     letter-spacing: 1px;
@@ -228,46 +213,6 @@ span {
 
   .MenuAirFoot {
     height: 320px;
-  }
-
-  .p_1 {
-    font-size: 0;
-  }
-
-  .p_2 {
-    font-size: 0;
-  }
-
-  .p_3 {
-    font-size: 0;
-  }
-
-  .p_4 {
-    font-size: 0;
-  }
-
-  .p_1:before {
-    font-size: small;
-    white-space: pre;
-    content: "[モーニングAセット]\A[モーニングBセット]\A[モーニングCセット]";
-  }
-
-  .p_2:before {
-    font-size: small;
-    white-space: pre;
-    content: "[ピザトーストセット]\A[サンドイッチセット]";
-  }
-
-  .p_3:before {
-    font-size: small;
-    white-space: pre;
-    content: "[日替わりランチ]\A[パスタ]\A[週替わりハンバーグランチ]\A[週替わりドリアランチ]";
-  }
-
-  .p_4:before {
-    font-size: small;
-    white-space: pre;
-    content: "[週替わりカレーランチ]\A[週替わりオムライスランチ]\A[週替わりミニハンバーグとミニドリアのコンビネーションランチ]\A[週替わりミニパスタとミニドリアのコンビネーションランチ]";
   }
 }
 </style>
