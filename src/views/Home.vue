@@ -42,45 +42,41 @@
 
     <div class="Homes">
       <h2>●沿革</h2>
-      <div class="TOPTEXT">
-        <div class="over2">
-          <p>1988年 6月 / 東部大阪障がい者労働センター 設立</p>
-          <p>1991年 6月 / 無認可作業所 にっこり作業所 設立</p>
-          <p>1995年 4月 / 無認可作業所 PicaPica 設立</p>
-          <p>2006年 4月 / (福祉) ゆるり福祉会 設立</p>
-          <p>2008年 4月 / (福祉) ゆるり福祉会 Pica Pica 空港店 開所</p>
-          <p>2013年 12月 / (福祉) ゆるり福祉会 Pica Pica 市役所店 開所</p>
-        </div>
+
+      <div class="over2">
+        <p>1988年 6月 / 東部大阪障がい者労働センター 設立</p>
+        <p>1991年 6月 / 無認可作業所 にっこり作業所 設立</p>
+        <p>1995年 4月 / 無認可作業所 PicaPica 設立</p>
+        <p>2006年 4月 / (福祉) ゆるり福祉会 設立</p>
+        <p>2008年 4月 / (福祉) ゆるり福祉会 Pica Pica 空港店 開所</p>
+        <p>2013年 12月 / (福祉) ゆるり福祉会 Pica Pica 市役所店 開所</p>
       </div>
     </div>
 
     <div class="Homes">
       <h2>●基本理念</h2>
-      <div class="TOPTEXT">
-        <div class="over2">
-          <p>
-            ○利用者の基本的人権を保障および尊重し、障がいの有無に関わらず<br />
-            &nbsp;&nbsp;全ての人々が平等に生活する社会=ノーマライゼーション社会の<br />&nbsp;&nbsp;実現を目指します。
-          </p>
-          <p>
-            ○利用者一人ひとりの人格・個性を尊重した<br />就労・社会参加・自立支援を実践し、<br />&nbsp;&nbsp;地域社会に開かれた施設作りを目指します。
-          </p>
-        </div>
+
+      <div class="over2">
+        <p>
+          ○利用者の基本的人権を保障および尊重し、障がいの有無に関わらず<br />
+          &nbsp;&nbsp;全ての人々が平等に生活する社会=ノーマライゼーション社会の<br />&nbsp;&nbsp;実現を目指します。
+        </p>
+        <p>
+          ○利用者一人ひとりの人格・個性を尊重した<br />就労・社会参加・自立支援を実践し、<br />&nbsp;&nbsp;地域社会に開かれた施設作りを目指します。
+        </p>
       </div>
     </div>
 
     <div class="Homes">
       <h2>●財務諸表 / 定款</h2>
       <div class="TOPTEXTFoot">
-        <div class="TOPTEXT">
-          <div class="over2">
-            <a
-              href="https://www.wam.go.jp/wamnet/zaihyoukaiji/pub/PUB0201000E00.do?_FORMID=PUB0219000&vo_headVO_corporationId=1627106320"
-              target="_blank"
-              rel="noopener noreferrer"
-              >掲載情報はこちら</a
-            >
-          </div>
+        <div class="over2">
+          <a
+            href="https://www.wam.go.jp/wamnet/zaihyoukaiji/pub/PUB0201000E00.do?_FORMID=PUB0219000&vo_headVO_corporationId=1627106320"
+            target="_blank"
+            rel="noopener noreferrer"
+            >掲載情報はこちら</a
+          >
         </div>
       </div>
     </div>
@@ -88,14 +84,6 @@
 </template>
 
 <style>
-.Home {
-  height: 100%;
-}
-
-body {
-  width: 100%;
-}
-
 .Home a {
   color: #3b275e;
 }
@@ -142,8 +130,10 @@ body {
   font-weight: bold;
 }
 
-.HomeTopText2 {
+.HomeTopText2 p {
+  margin-top: 35px;
   text-align: center;
+  font-size: 17px;
   letter-spacing: 2px;
   color: #444344;
   font-weight: bold;
@@ -155,7 +145,7 @@ body {
 }
 
 .Homes {
-  margin-top: 3.25%;
+  margin-top: 25px;
 }
 
 span {
@@ -164,11 +154,11 @@ span {
 }
 
 .over {
+  margin-top: 35px;
   margin-left: 40.5%;
 }
 
 .over2 {
-  display: inline-block;
   text-align: center;
 }
 
@@ -221,27 +211,35 @@ span {
 
 @media (max-width: 900px) {
   .over p {
-    font-size: small;
-    letter-spacing: 1px;
+    font-size: x-small;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
   }
 
   .over {
-    margin-left: 30%;
+    margin-left: 20%;
   }
 
   .over li {
-    font-size: small;
-    letter-spacing: 1px;
+    font-size: x-small;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
   }
 
   .over2 p {
-    font-size: small;
-    letter-spacing: 1px;
+    font-size: x-small;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
   }
 
   .over2 li {
-    font-size: small;
-    letter-spacing: 1px;
+    font-size: x-small;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
   }
 
   .over2 a {
@@ -249,8 +247,13 @@ span {
     letter-spacing: 1px;
   }
 
-  .HomeTopText2 p {
-    font-size: small;
+  .HomesTOP .HomeTopText2 p {
+    margin-top: 35px;
+    text-align: center;
+    font-size: x-small;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
   }
 
   .Home h2 {
