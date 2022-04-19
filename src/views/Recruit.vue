@@ -56,7 +56,7 @@
       <div class="MenuTextFoot">
         <div class="menuTextfotter">
           <p>
-            その他、パン作りや軽作業、畑仕事なども業務もあります。
+            その他、パン作りや軽作業、畑仕事などの業務もあります。
             <br />
             気軽に作業見学にお申し込みください。
           </p>
