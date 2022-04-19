@@ -127,7 +127,7 @@ body {
   font-weight: bold;
   letter-spacing: 5px;
   color: #313031;
-  font-size: 30px;
+  font-size: 36px;
   margin-left: 23.5px;
 }
 
@@ -212,18 +212,28 @@ span {
 }
 
 @media (max-width: 900px) {
-  .TOPTEXT p {
-    font-size: 1.65vw;
+  .over p {
+    font-size: small;
     letter-spacing: 1px;
   }
 
-  .TOPTEXT li {
-    font-size: 1.65vw;
+  .over li {
+    font-size: small;
+    letter-spacing: 1px;
+  }
+
+  .over2 p {
+    font-size: small;
+    letter-spacing: 1px;
+  }
+
+  .over2 li {
+    font-size: small;
     letter-spacing: 1px;
   }
 
   .HomeTopText2 p {
-    font-size: 1.65vw;
+    font-size: small;
   }
 
   .Home h2 {
