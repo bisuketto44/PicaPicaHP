@@ -1,6 +1,5 @@
 <template>
   <div class="Home">
-    
     <div class="PicaPicaTop">
       <h1>社会福祉法人 ゆるり福祉会<span>Pica Pica</span></h1>
     </div>
@@ -10,7 +9,7 @@
       <div class="HomeTopText2">
         <p>
           2006年4月、自立支援法が施行、10月より本格的に実施され、<br />これまでの障がい者福祉は大きく変わることとなりました。<br />
-          社会福祉法人ゆるり福祉会では、仕事及び日々の生活を地域社会で暮らせるよう、<br />毎日通所できるB型を選択し認可されています。<br />
+          社会福祉法人ゆるり福祉会では、仕事及び日々の生活を地域社会で暮らせるよう<br />毎日通所できるB型を選択し認可されています。<br />
           スタッフ、メンバー一丸となって「ともに」仕事をしています。
         </p>
       </div>
@@ -61,11 +60,11 @@
       <div class="TOPTEXT">
         <div class="over2">
           <p>
-            ○利用者の基本的人権を保障および尊重し、障がいの有無に関わらず、<br />
+            ○利用者の基本的人権を保障および尊重し、障がいの有無に関わらず<br />
             &nbsp;&nbsp;全ての人々が平等に生活する社会=ノーマライゼーション社会の<br />&nbsp;&nbsp;実現を目指します。
           </p>
           <p>
-            ○利用者一人ひとりの人格・個性を尊重した就労・社会参加・自立支援を実践し、<br />&nbsp;&nbsp;地域社会に開かれた施設作りを目指します。
+            ○利用者一人ひとりの人格・個性を尊重した<br>就労・社会参加・自立支援を実践し、<br />&nbsp;&nbsp;地域社会に開かれた施設作りを目指します。
           </p>
         </div>
       </div>
@@ -172,9 +171,22 @@ span {
 }
 
 .over2 {
-  margin-left: 4.5%;
   display: inline-block;
-  text-align: left;
+  text-align: center;
+}
+
+.over p {
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
+.over2 p {
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
 }
 
 .HomesTOP {
