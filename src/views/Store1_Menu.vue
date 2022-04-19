@@ -139,7 +139,7 @@ body {
   height: 280px;
 }
 
-.Store1_MenuText {
+.Store1_MenuText p {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -171,7 +171,7 @@ span {
 }
 
 @media (max-width: 1919px) {
-  .Store1_MenuText {
+  .Store1_MenuText p {
     text-align: center;
     font-size: 14.5px;
     letter-spacing: 2px;
@@ -195,7 +195,7 @@ span {
   .Store1_MenuText p {
     text-align: center;
     font-size: small;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
   }
