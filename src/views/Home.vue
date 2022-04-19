@@ -1,5 +1,5 @@
 <template>
-  <div class="Home">
+  <div class="menu">
     <div class="PicaPicaTop">
       <h1>社会福祉法人 ゆるり福祉会<span>Pica Pica</span></h1>
     </div>
@@ -188,7 +188,7 @@ span {
 @media (max-width: 1919px) {
   .TOPTEXT {
     text-align: center;
-    font-size: 15.5px;
+    font-size: small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
@@ -196,7 +196,7 @@ span {
 
   .HomeTopText2 {
     text-align: center;
-    font-size: 15.5px;
+    font-size: small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
@@ -223,27 +223,32 @@ span {
   }
 
   .over p {
-    font-size: 15.5px;
+    font-size: small;
     letter-spacing: 1px;
   }
 
   .over li {
-    font-size: 15.5px;
+    font-size: small;
     letter-spacing: 1px;
   }
 
   .over2 p {
-    font-size: 15.5px;
+    font-size: small;
     letter-spacing: 1px;
   }
 
   .over2 li {
-    font-size: 15.5px;
+    font-size: small;
+    letter-spacing: 1px;
+  }
+
+  .over2 a {
+    font-size: small;
     letter-spacing: 1px;
   }
 
   .HomeTopText2 p {
-    font-size: 15.5px;
+    font-size: small;
   }
 
   .Home h2 {
