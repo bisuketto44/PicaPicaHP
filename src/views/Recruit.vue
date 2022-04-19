@@ -129,7 +129,7 @@ body {
   height: 230px;
 }
 
-.Recrute_Texts {
+.Recrute_Texts p {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -137,7 +137,7 @@ body {
   font-weight: bold;
 }
 
-.menuTextfotter {
+.menuTextfotter p {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -145,7 +145,7 @@ body {
   font-weight: bold;
 }
 
-.recToptext {
+.recToptext p{
   margin-top: 100px;
   text-align: center;
   font-size: 17px;
@@ -176,7 +176,7 @@ span {
 }
 
 @media (max-width: 1919px) {
-  .Recrute_Texts {
+  .Recrute_Texts p {
     text-align: center;
     font-size: 14.5px;
     letter-spacing: 2px;
@@ -195,7 +195,7 @@ span {
     height: 250px;
   }
 
-  .recToptext {
+  .recToptext p {
     margin-top: 100px;
     text-align: center;
     font-size: 14.5px;
@@ -206,24 +206,24 @@ span {
 }
 
 @media (max-width: 900px) {
-  .Recrute_Texts {
+  .Recrute_Texts p{
     text-align: center;
-    font-size: 12.5px;
+    font-size: x-small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
   }
 
-  .recTOP .recToptext {
+  .recTOP .recToptext p {
     margin-top: 100px;
     text-align: center;
-    font-size: 10.5px;
+    font-size: small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
   }
 
-  .menuTextfotter {
+  .menuTextfotter p{
     text-align: center;
     font-size: 20.5px;
     letter-spacing: 2px;
@@ -240,15 +240,6 @@ span {
   .Recrui .air_02 {
     width: 260px;
     height: 220px;
-  }
-
-  .recToptext {
-    margin-top: 100px;
-    text-align: center;
-    font-size: 14.5px;
-    letter-spacing: 2px;
-    color: #444344;
-    font-weight: bold;
   }
 
   .menus{
