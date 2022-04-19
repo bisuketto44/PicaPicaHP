@@ -326,6 +326,13 @@ li {
     margin-left: 60px;
   }
 
-  
+  .ToLink li {
+    text-align: center;
+    font-size: 16.5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 0.5%;
+    list-style: none;
+  }
 }
 </style>
