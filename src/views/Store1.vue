@@ -487,43 +487,43 @@ li {
 #img17 {
   position: absolute;
   left: 30%;
-  top: 69%;
+  top: 66%;
 }
 
 #img18 {
   position: absolute;
   left: 36.5%;
-  top: 69%;
+  top: 66%;
 }
 
 #img19 {
   position: absolute;
   left: 47%;
-  top: 69%;
+  top: 63%;
 }
 
 #img20 {
   position: absolute;
   left: 55%;
-  top: 69%;
+  top: 63%;
 }
 
 #img21 {
   position: absolute;
   left: 58%;
-  top: 69%;
+  top: 63%;
 }
 
 #img22 {
   position: absolute;
   left: 60%;
-  top: 69%;
+  top: 67%;
 }
 
 #img23 {
   position: absolute;
   left: 65%;
-  top: 69%;
+  top: 63%;
 }
 
 #img24 {
