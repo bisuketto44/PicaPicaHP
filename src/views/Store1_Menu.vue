@@ -1,78 +1,83 @@
 <template>
   <div class="menu">
-    <div class="Airport_Top">
+    <div class="City_Menu_Top">
       <img alt="image1" src="../assets/menuicon.png" />
       <h1>Menu<span>空港店</span></h1>
     </div>
 
     <div class="menusTOP">
       <h2>●モーニングサービス<span>8:00 ~ 11:00</span></h2>
-      <div class="Store1_MenuBOX">
+      <div class="menuBOX">
         <img alt="image1" src="../assets/airport_01.png" />
         <img alt="image1" class="air_02" src="../assets/airport_02.png" />
         <img alt="image1" src="../assets/airport_03.png" />
       </div>
-      <div class="Store1_MenuText">
+      <div class="menuText">
         <p>
           ①[モーニングAセット] <br />
           ②[モーニングBセット] <br />
           ③[モーニングCセット]
         </p>
       </div>
-      <div class="Store1_MenuBOX">
+
+      <div class="menuBOX">
         <img alt="image1" src="../assets/airport_04.png" />
         <img alt="image1" src="../assets/airport_05.png" />
       </div>
-      <div class="Store1_MenuText">
+      <div class="menuText">
         <p>①[ピザトーストセット] <br />②[サンドイッチセット]</p>
       </div>
     </div>
 
     <div class="menus">
       <h2>●ランチタイム<span>11:30 ~ 14:15</span></h2>
-      <div class="Store1_MenuBOX">
+      <div class="menuBOX">
         <img alt="image1" src="../assets/airport_06.png" />
         <img alt="image1" src="../assets/airport_07.png" />
         <img alt="image1" src="../assets/airport_08.png" />
         <img alt="image1" src="../assets/airport_09.png" />
       </div>
-      <div class="Store1_MenuText">
+      <div class="menuText">
         <p>
           ①[日替わりランチ] <br />②[パスタ] <br />
           ③[週替わりハンバーグランチ] <br />④[週替わりドリアランチ]
         </p>
       </div>
-      <div class="Store1_MenuBOX">
+
+      <div class="menuBOX">
         <img alt="image1" src="../assets/airport_10.png" />
         <img alt="image1" src="../assets/airport_11.png" />
         <img alt="image1" src="../assets/airport_12.jpg" />
         <img alt="image1" src="../assets/airport_13.png" />
       </div>
-      <div class="Store1_MenuText">
+      <div class="menuText">
         <p>
-          ①[週替わりカレーランチ] <br />②[週替わりオムライスランチ]
-          <br />③[週替わりミニハンバーグとミニドリアのコンビネーションランチ]
-          <br />
-          ④[週替わりミニパスタとミニドリアのコンビネーションランチ]
+          ①[日替わりランチ] <br />②[パスタ] <br />
+          ③[週替わりハンバーグランチ] <br />④[週替わりドリアランチ]
         </p>
       </div>
     </div>
 
     <div class="menus">
-      <h2>●その他</h2>
-      <div class="MenuAirFoot">
-        <div class="Store1_MenuBOX">
-          <img alt="image1" src="../assets/airport_14.png" />
-          <img alt="image1" src="../assets/airport_15.png" />
-          <img alt="image1" src="../assets/airport_16.png" />
-        </div>
-        <div class="Store1_MenuText">
-          <p>
-            その他、焼き菓子やプリン、パン、お子様ランチ等もご用意しております
-          </p>
-        </div>
+      <h2>
+        ●その他<span>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
+        >
+      </h2>
+      <div class="menuBOX">
+        <img alt="image1" src="../assets/airport_14.png" />
+        <img alt="image1" src="../assets/airport_15.png" />
+        <img alt="image1" src="../assets/airport_16.png" />
+      </div>
+      <div class="menuText">
+        <p>
+          その他、焼き菓子やプリン、パン、お子様ランチ等もご用意しております<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </p>
       </div>
     </div>
+
+ 
   </div>
 </template>
 
@@ -91,7 +96,7 @@ body {
   font-size: 25px;
 }
 
-.Airport_Top {
+.City_Menu_Top {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,7 +107,7 @@ body {
   background-size: cover;
 }
 
-.Airport_Top h1 {
+.City_Menu_Top h1 {
   font-weight: bold;
   letter-spacing: 5px;
   color: #313031;
@@ -110,17 +115,17 @@ body {
   margin-left: 23.5px;
 }
 
-.Airport_Top img {
+.City_Menu_Top img {
   width: 60px;
   height: 60px;
 }
 
-.Store1_MenuBOX {
+.menuBOX {
   text-align: center;
   margin-top: 1.5%;
 }
 
-.Store1_MenuBOX a {
+.menuBOX a {
   text-align: center;
   font-size: 20px;
   letter-spacing: 2px;
@@ -128,18 +133,13 @@ body {
   font-weight: bold;
 }
 
-.Store1_MenuBOX img {
+.menuBOX img {
   width: 220px;
   height: 280px;
   margin: 2%;
 }
 
-.Store1_MenuBOX .air_02 {
-  width: 320px;
-  height: 280px;
-}
-
-.Store1_MenuText p {
+.menuText {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -147,18 +147,16 @@ body {
   font-weight: bold;
 }
 
-.MenuAirFoot {
-  height: 470px;
+.MenuTextFoot {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .menus {
   margin-top: 3.25%;
-}
-
-.menu_02 {
-  width: 320px;
-  height: 280px;
-  margin: 2%;
 }
 
 span {
@@ -171,7 +169,7 @@ span {
 }
 
 @media (max-width: 1919px) {
-  .Store1_MenuText p {
+  .menuText {
     text-align: center;
     font-size: 14.5px;
     letter-spacing: 2px;
@@ -179,41 +177,48 @@ span {
     font-weight: bold;
   }
 
-  .Store1_MenuBOX img {
+  .menuBOX img {
     width: 190px;
     height: 250px;
     margin: 2%;
   }
 
-  .Store1_MenuBOX .air_02 {
+  .menuBOX .air_02 {
     width: 290px;
     height: 250px;
   }
 }
 
 @media (max-width: 900px) {
-  .Store1_MenuText p {
+  .menuText {
     text-align: center;
-    font-size: small;
+    font-size: x-small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
   }
 
-  .Store1_MenuBOX img {
-    width: 130px;
-    height: 190px;
+  .MenuTextFoot {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .menus {
+    margin-top: 35px;
+  }
+
+  .menuBOX img {
+    width: 160px;
+    height: 220px;
     margin: 2%;
   }
 
-  .Store1_MenuBOX .air_02 {
-    width: 230px;
-    height: 190px;
-  }
-
-  .MenuAirFoot {
-    height: 320px;
+  .menuBOX .air_02 {
+    width: 260px;
+    height: 220px;
   }
 }
 </style>
-

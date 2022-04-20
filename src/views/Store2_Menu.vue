@@ -184,10 +184,6 @@ span {
     margin: 2%;
   }
 
-  .menuBOX .air_02 {
-    width: 290px;
-    height: 250px;
-  }
 }
 
 @media (max-width: 900px) {
@@ -217,9 +213,6 @@ span {
     margin: 2%;
   }
 
-  .menuBOX .air_02 {
-    width: 260px;
-    height: 220px;
-  }
+  
 }
 </style>
