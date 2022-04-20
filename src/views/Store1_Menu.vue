@@ -52,12 +52,14 @@
       </div>
       <div class="menuText">
         <p>
-          ①[日替わりランチ] <br />②[パスタ] <br />
-          ③[週替わりハンバーグランチ] <br />④[週替わりドリアランチ]
+          ①[週替わりカレーランチ] <br />②[週替わりオムライスランチ]
+          <br />③[週替わりミニハンバーグとミニドリアのコンビネーションランチ]
+          <br />
+          ④[週替わりミニパスタとミニドリアのコンビネーションランチ]
         </p>
       </div>
     </div>
-
+    <!-- ここバグっぽい？ -->
     <div class="menus">
       <h2>
         ●その他<span>
@@ -71,13 +73,11 @@
       </div>
       <div class="menuText">
         <p>
-          その他、焼き菓子やプリン、パン、お子様ランチ等もご用意しております<br>
+          その他、焼き菓子やプリン、パン、お子様ランチ等もご用意しております<br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </p>
       </div>
     </div>
-
- 
   </div>
 </template>
 
@@ -123,6 +123,11 @@ body {
 .menuBOX {
   text-align: center;
   margin-top: 1.5%;
+}
+
+.menuBOX .air_02 {
+  width: 320px;
+  height: 280px;
 }
 
 .menuBOX a {
