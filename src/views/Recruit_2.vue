@@ -1,37 +1,50 @@
 <template>
-  <div class="rect_city">
+  <div class="menu">
     <div class="Recruit_Top">
       <img alt="image1" src="../assets/RecruteIcon.png" />
       <h1>Recruit <span>市役所店</span></h1>
     </div>
 
     <div class="recTOP">
-      <h2>●メンバーさん募集</h2>
-      <p>
-        障がいを持たれた方で家で過ごされている方。<br />
-        一歩外に出て ゆるり福祉会 cafe rest pica pica 市役所店で<br />一緒に働いてみませんか？<br />
-        カフェ業務全般の中から個々にできる作業を探していきます。<br />
-        気軽に作業見学にお申し込みください。<br /><br />℡ 072-999-9922
-      </p>
+      <h2>●利用者さん募集</h2>
+      <div class="recToptext">
+        <p>
+          障がいを持たれた方で家で過ごされている方。<br />
+          一歩外に出て ゆるり福祉会 cafe rest pica pica 市役所店で<br />一緒に働いてみませんか？<br />
+          カフェ業務全般の中から個々にできる作業を探していきます。<br />
+          気軽に作業見学にお申し込みください。<br /><br />℡ 072-999-9922
+        </p>
+      </div>
     </div>
 
-    <div class="rects">
-      <h2>●作業風景</h2>
-
+    <div class="menus">
+      <h2>●カフェ業務</h2>
       <div class="Recruit">
         <img alt="image1" src="../assets/city_member01.png" />
         <img alt="image1" src="../assets/city_member02.png" />
       </div>
-
-      <p>カフェ業務全般の中から個々にできる作業を探していきます。</p>
+      <div class="Recrute_Texts">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <p>カフェ業務全般の中から個々にできる作業を探していきます。</p>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      </div>
     </div>
 
-    <div class="rects_foot">
+    <div class="menus">
       <h2>●他店について</h2>
-      <p>
-        空港店に関しての募集情報は以下をご覧ください。<br /><br />
-        <router-link class="route2" to="/recruit-1">空港店募集情報</router-link>
-      </p>
+      <div class="MenuTextFoot">
+        <div class="menuTextfotter">
+          <p>
+            空港店に関しての募集情報は以下をご覧ください。<br /><br />
+            <router-link class="route2" to="/recruit-1"
+              >空港店募集情報</router-link
+            >
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -41,17 +54,11 @@ body {
   width: 100%;
 }
 
-.temp {
-  top: 2000px;
-}
-
 .route2 {
-  letter-spacing: 1.25px;
   color: #3b275e;
-  font-weight: bold;
 }
 
-.rect_city h2 {
+.menu h2 {
   margin-left: 15%;
   font-weight: bold;
   letter-spacing: 3px;
@@ -109,8 +116,7 @@ body {
   height: 230px;
 }
 
-.rect_city p {
-  margin-top: 75px;
+.Recrute_Texts p {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -118,18 +124,33 @@ body {
   font-weight: bold;
 }
 
-.rect_cityTextFoot {
-  height: 105px;
+.menuTextfotter p {
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
+.recToptext p {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
+.MenuTextFoot {
+  height: 235px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.rects {
+.menus {
   margin-top: 3.25%;
-}
-
-.rects_foot {
-  margin-top: 3.25%;
-  padding-bottom: 4.5%;
 }
 
 span {
@@ -142,6 +163,14 @@ span {
 }
 
 @media (max-width: 1919px) {
+  .Recrute_Texts p {
+    text-align: center;
+    font-size: 14.5px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
   .Recruit img {
     width: 190px;
     height: 250px;
@@ -153,8 +182,8 @@ span {
     height: 250px;
   }
 
-  .rect_city p {
-    margin-top: 50px;
+  .recToptext p {
+    margin-top: 100px;
     text-align: center;
     font-size: 14.5px;
     letter-spacing: 2px;
@@ -164,9 +193,26 @@ span {
 }
 
 @media (max-width: 900px) {
-  .rect_city p {
+  .Recrute_Texts p {
     text-align: center;
-    font-size: smaller;
+    font-size: x-small;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .recTOP .recToptext p {
+    margin-top: 100px;
+    text-align: center;
+    font-size: x-small;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .menuTextfotter p {
+    text-align: center;
+    font-size: large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
@@ -183,15 +229,8 @@ span {
     height: 220px;
   }
 
-  .rects {
+  .menus {
     margin-top: 50px;
-  }
-
-  .route2 {
-    font-size: large;
-    letter-spacing: 1.25px;
-    color: #3b275e;
-    font-weight: bold;
   }
 }
 </style>
