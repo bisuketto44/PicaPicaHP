@@ -64,11 +64,11 @@
         ●パン &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
       </h2>
       <div class="Recruit">
-        <img alt="image1" src="../assets/air_pan.jpg" />
+        <img alt="image1" class="image2" src="../assets/air_pan.jpg" />
       </div>
       <div class="Recrute_Texts">
         <p>
-          カフェPicaPicaのモーニング・ランチ<br />テイクアウトとカフェ営業で欠かすことのできないパンの製造・販売をします。<br />
+          カフェPicaPicaのモーニング・ランチ<br />テイクアウトとカフェ営業で欠かすことのできない<br />パンの製造・販売をします。<br />
           小麦粉と材料の計量から練り・発酵・分割・成形・発酵・焼き<br />
           パンをお店に並べる・・・・パンの袋入れ シール貼り<br />
           パン作り以外にもオーブン用鉄板・道具の洗浄作業など
@@ -81,12 +81,12 @@
         ●軽作業 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
       </h2>
       <div class="Recruit">
-        <img alt="image1" src="../assets/air_kei.jpg" />
+        <img alt="image1" class="image2" src="../assets/air_kei.jpg" />
       </div>
       <div class="Recrute_Texts">
         <p>
           内職仕事をはじめとし封入作業などいろいろな仕事をしています<br />
-          はさみを使う仕事・数を数えて箱に入れる仕事<br />袋に入れる仕事・重さを量って箱に入れる仕事・段ボールを組み立てる仕事<br />
+          はさみを使う仕事・数を数えて箱に入れる仕事<br />袋に入れる仕事・重さを量って箱に入れる仕事<br />段ボールを組み立てる仕事<br />
           仕事によっていろいろな動作を何度もくりかえします。<br />何度も繰り返し、仕事になれ、上手になっていきます。<br />仕事の原点ともいえる仕事だなと思います
         </p>
       </div>
@@ -206,6 +206,11 @@ body {
   height: 230px;
 }
 
+.Recruit .image2 {
+  width: 380px;
+  height: 230px;
+}
+
 .Recrute_Texts p {
   text-align: center;
   font-size: 17px;
@@ -265,6 +270,11 @@ span {
     width: 190px;
     height: 250px;
     margin: 2%;
+  }
+
+  .Recruit .image2 {
+    width: 280px;
+    height: 170px;
   }
 
   .Recrui .air_02 {
