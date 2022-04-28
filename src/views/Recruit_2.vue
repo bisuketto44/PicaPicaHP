@@ -212,7 +212,7 @@ span {
 
   .menuTextfotter p {
     text-align: center;
-    font-size: large;
+    font-size: x-large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
