@@ -26,11 +26,12 @@
       <p>カフェ業務全般の中から個々にできる作業を探していきます。</p>
     </div>
 
-    <div class="rects">
+    <div class="rects_foot">
       <h2>●他店について</h2>
-      <div class="rect_cityTextFoot">
-        <p>空港店に関しての募集情報は以下をご覧ください。<br />リンク</p>
-      </div>
+      <p>
+        空港店に関しての募集情報は以下をご覧ください。<br /><br />
+        <router-link class="route2" to="/recruit-1">空港店募集情報</router-link>
+      </p>
     </div>
   </div>
 </template>
@@ -42,6 +43,12 @@ body {
 
 .temp {
   top: 2000px;
+}
+
+.route2 {
+  letter-spacing: 1.25px;
+  color: #3b275e;
+  font-weight: bold;
 }
 
 .rect_city h2 {
@@ -120,6 +127,11 @@ body {
   margin-top: 3.25%;
 }
 
+.rects_foot {
+  margin-top: 3.25%;
+  padding-bottom: 4.5%;
+}
+
 span {
   font-size: 20px;
   margin-left: 20px;
@@ -154,7 +166,7 @@ span {
 @media (max-width: 900px) {
   .rect_city p {
     text-align: center;
-    font-size: small;
+    font-size: x-small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;

@@ -658,7 +658,7 @@ li {
 
   .ToLink_1 li {
     text-align: center;
-    font-size: 20.5px;
+    font-size: 24.5px;
     letter-spacing: 2px;
     font-weight: bold;
     padding: 0.5%;
