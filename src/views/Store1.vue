@@ -656,7 +656,16 @@ li {
     font-weight: bold;
   }
 
-  .BaseImg img{
+  .ToLink li {
+    text-align: center;
+    font-size: 16.5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 0.5%;
+    list-style: none;
+  }
+
+  .BaseImg img {
     height: 320px;
     width: 620px;
   }

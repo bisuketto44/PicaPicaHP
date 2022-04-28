@@ -65,6 +65,34 @@
             rel="noopener noreferrer"
             ><span class="fa fa-gratipay"></span>手作り石鹸 hiroさん</a
           >
+          <br />
+          <a
+            href="https://www.instagram.com/pandasannomemo/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="fa fa-gratipay"></span>ハンドメイド 32pandaさん</a
+          >
+          <br />
+          <a
+            href="https://www.instagram.com/1043lanualidesign/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="fa fa-gratipay"></span>アクセサリー 乾 利美さん</a
+          >
+          <br />
+          <a
+            href="https://www.lincle-link-circle.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="fa fa-gratipay"></span>リンクルさん</a
+          >
+          <br />
+          <a
+            href="http://kara-kara-tei.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="fa fa-gratipay"></span>八尾から味噌本舗さん</a
+          >
         </p>
       </div>
     </div>
@@ -95,7 +123,7 @@
           <p>
             cafe rest pica pica 市役所店では、営業日以外の日(土・祝)を<br />
             空港店の手作りクッキー&ドリンクセットを<br />
-            人数分(※要相談)でお召し上がり頂きながら、貸し切りとしてご利用頂けます。(※1日1団体)<br />
+            人数分(※要相談)でお召し上がり頂きながら<br />貸し切りとしてご利用頂けます。(※1日1団体)<br />
             詳しくは当店までお問い合わせください。
           </p>
         </div>
@@ -221,6 +249,12 @@ span {
     width: 290px;
     height: 250px;
   }
+
+  .okosama img {
+    width: 250px;
+    height: 200px;
+    margin: 2%;
+  }
 }
 
 @media (max-width: 900px) {
@@ -252,6 +286,12 @@ span {
 
   .OtherBOX .event {
     width: 300px;
+    height: 200px;
+    margin: 2%;
+  }
+
+  .okosama img {
+    width: 250px;
     height: 200px;
     margin: 2%;
   }

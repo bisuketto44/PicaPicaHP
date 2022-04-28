@@ -10,8 +10,7 @@
         <div class="selecter">
           <router-link to="/">ゆるり福祉会</router-link> |
           <router-link to="/store1">空港店</router-link> |
-          <router-link to="/store2">市役所店</router-link> |
-          <router-link to="/recruit">募集情報</router-link>
+          <router-link to="/store2">市役所店</router-link>
         </div>
       </div>
     </div>

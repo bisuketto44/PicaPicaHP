@@ -6,9 +6,10 @@
     </div>
 
     <div class="menusTOP">
-      <h2>●モーニングサービス<span>9:00 ~ 11:00</span></h2>
+      <h2>●モーニングサービス<span>9:00 ~ 11:30</span></h2>
       <div class="menuBOX">
         <img alt="image1" src="../assets/city_morning01.png" />
+        <img alt="image1" src="../assets/city_morning04.jpg" />
         <img alt="image1" src="../assets/city_morning02.png" />
         <img alt="image1" src="../assets/city_morning03.png" />
       </div>
@@ -71,7 +72,7 @@
             target="_blank"
             rel="noopener noreferrer"
             class="btn facebook"
-            ><span class="fa fa-facebook"></span>今週のメニュー詳細</a
+            ><span class="fa fa-facebook-square"></span>今週のメニュー詳細</a
           >
         </div>
         <div class="menuText">
@@ -183,7 +184,6 @@ span {
     height: 250px;
     margin: 2%;
   }
-
 }
 
 @media (max-width: 900px) {
@@ -212,7 +212,5 @@ span {
     height: 220px;
     margin: 2%;
   }
-
-  
 }
 </style>

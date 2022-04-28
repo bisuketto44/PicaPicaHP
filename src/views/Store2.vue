@@ -79,6 +79,11 @@
                 >その他の店舗内情報はこちら</router-link
               >
             </li>
+            <li>
+              <router-link to="/recruit-2"
+                >市役所店募集情報はこちら</router-link
+              >
+            </li>
           </ul>
         </div>
       </div>

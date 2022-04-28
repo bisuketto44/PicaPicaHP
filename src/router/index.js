@@ -34,9 +34,14 @@ export const routes = [{
     component: () => import( /* webpackChunkName: "about" */ '../views/Store2_StoreInfo.vue')
   },
   {
-    path: '/recruit',
+    path: '/recruit-1',
     name: 'Recruit', // URL 
-    component: () => import( /* webpackChunkName: "about" */ '../views/Recruit.vue')
+    component: () => import( /* webpackChunkName: "about" */ '../views/Recruit_1.vue')
+  },
+  {
+    path: '/recruit-2',
+    name: 'Recruit', // URL 
+    component: () => import( /* webpackChunkName: "about" */ '../views/Recruit_2.vue')
   },
 ]
 
