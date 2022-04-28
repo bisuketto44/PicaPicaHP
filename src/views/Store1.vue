@@ -663,7 +663,7 @@ li {
 
   .ToLink_1 li {
     text-align: center;
-    font-size: 24.5px;
+    font-size: medium;;
     letter-spacing: 2px;
     font-weight: bold;
     padding: 0.5%;
