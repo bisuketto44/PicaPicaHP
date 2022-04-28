@@ -154,7 +154,7 @@ span {
 @media (max-width: 900px) {
   .rect_city p {
     text-align: center;
-    font-size: medium;
+    font-size: small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;

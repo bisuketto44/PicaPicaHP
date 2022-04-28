@@ -655,7 +655,16 @@ li {
     color: #444344;
     font-weight: bold;
   }
-  
+
+  .ToLink_1 li {
+    text-align: center;
+    font-size: 20.5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 0.5%;
+    list-style: none;
+  }
+
   .BaseImg img {
     height: 320px;
     width: 620px;
