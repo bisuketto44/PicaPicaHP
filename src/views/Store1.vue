@@ -214,7 +214,7 @@
         </div>
 
         <h2>More</h2>
-        <div class="ToLink">
+        <div class="ToLink_1">
           <ul>
             <li>
               <router-link to="/store1_menu"
@@ -388,18 +388,18 @@ li {
   margin-top: 100px;
 }
 
-.ToLink {
+.ToLink_1 {
   margin: 75px;
   font-size: 20px;
   text-align: center;
 }
 
 /* routerLinkはa要素 */
-.ToLink a {
+.ToLink_1 a {
   color: #3b275e;
 }
 
-.ToLink li {
+.ToLink_1 li {
   text-align: center;
   font-size: 20px;
   letter-spacing: 2px;
@@ -655,16 +655,7 @@ li {
     color: #444344;
     font-weight: bold;
   }
-
-  .ToLink li {
-    text-align: center;
-    font-size: 16.5px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    padding: 0.5%;
-    list-style: none;
-  }
-
+  
   .BaseImg img {
     height: 320px;
     width: 620px;
