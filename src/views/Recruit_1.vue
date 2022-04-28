@@ -2,7 +2,7 @@
   <div class="menu">
     <div class="Recruit_Top">
       <img alt="image1" src="../assets/RecruteIcon.png" />
-      <h1>Recruit <span>市役所店</span></h1>
+      <h1>Recruit <span>空港店</span></h1>
     </div>
 
     <div class="recTOP">
