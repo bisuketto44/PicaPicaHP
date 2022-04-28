@@ -221,6 +221,11 @@
                 >空港店メニューはこちら</router-link
               >
             </li>
+            <li>
+              <router-link to="/recruit-1"
+                >空港店募集情報はこちら</router-link
+              >
+            </li>
           </ul>
         </div>
       </div>

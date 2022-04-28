@@ -186,5 +186,12 @@ span {
   .rects {
     margin-top: 50px;
   }
+
+  .route2 {
+    font-size: large;
+    letter-spacing: 1.25px;
+    color: #3b275e;
+    font-weight: bold;
+  }
 }
 </style>

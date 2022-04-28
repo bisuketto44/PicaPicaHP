@@ -2,16 +2,16 @@
   <div class="rect_city">
     <div class="Recruit_Top">
       <img alt="image1" src="../assets/RecruteIcon.png" />
-      <h1>Recruit <span>市役所店</span></h1>
+      <h1>Recruit <span>空港店</span></h1>
     </div>
 
     <div class="recTOP">
       <h2>●メンバーさん募集</h2>
       <p>
-        障がいを持たれた方で家で過ごされている方。<br />
-        一歩外に出て ゆるり福祉会 cafe rest pica pica 市役所店で<br />一緒に働いてみませんか？<br />
-        カフェ業務全般の中から個々にできる作業を探していきます。<br />
-        気軽に作業見学にお申し込みください。<br /><br />℡ 072-999-9922
+        PicaPica作業所で一緒に働いてみませんか？<br />
+        接客、パン作り、弁当作り、クッキー作り<br />陶芸、厨房作業、軽作業など<br />
+        いろいろなお仕事があります。<br />
+        気軽にお問い合わせください。<br /><br />℡ 072-997-7475
       </p>
     </div>
 
