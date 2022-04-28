@@ -6,7 +6,7 @@
     </div>
 
     <div class="recTOP">
-      <h2>●利用者さん募集</h2>
+      <h2>●メンバーさん募集</h2>
       <div class="recToptext">
         <p>
           障がいを持たれた方で家で過ごされている方。<br />
@@ -18,7 +18,7 @@
     </div>
 
     <div class="menus">
-      <h2>●カフェ業務</h2>
+      <h2>●作業風景</h2>
       <div class="Recruit">
         <img alt="image1" src="../assets/city_member01.png" />
         <img alt="image1" src="../assets/city_member02.png" />
