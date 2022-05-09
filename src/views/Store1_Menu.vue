@@ -149,6 +149,11 @@
   font-weight: bold;
 }
 
+span {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
 body {
   width: 100%;
 }
@@ -332,7 +337,7 @@ span {
     font-weight: bold;
   }
 
-   .menuText_Z {
+  .menuText_Z {
     text-align: center;
     font-size: medium;
     letter-spacing: 2px;
