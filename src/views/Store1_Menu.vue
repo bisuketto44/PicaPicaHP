@@ -100,7 +100,7 @@
         <img alt="image1" src="../assets/airport_15.png" />
         <img alt="image1" src="../assets/airport_16.png" />
       </div>
-      <div class="menuText">
+      <div class="menuText_F">
         <p>
           その他、焼き菓子やプリン、パン、お子様ランチ等もご用意しております<br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -114,7 +114,7 @@
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
         >
       </h2>
-      <div class="menuText">
+      <div class="menuText_F">
         <p>
           <br />
           今週のメニュー 定休日
@@ -159,6 +159,13 @@ body {
   border-bottom: 1.75px solid rgb(85, 82, 82);
   width: 70%;
   font-size: 25px;
+}
+
+.menuText_F a {
+  text-align: center;
+  letter-spacing: 2px;
+  color: #3b275e;
+  font-weight: bold;
 }
 
 .City_Menu_Top {
@@ -224,6 +231,14 @@ body {
   font-weight: bold;
 }
 
+.menuText_F {
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
 .menuText a {
   text-align: center;
   font-size: 17px;
@@ -260,6 +275,16 @@ body {
   .menuText {
     text-align: center;
     font-size: medium;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+    width: 740px;
+    margin-left: 350px;
+  }
+
+  .menuText_F {
+    text-align: center;
+    font-size: large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
@@ -316,12 +341,14 @@ body {
     margin-left: 200px;
   }
 
-  .menuText a {
+  .menuText_F {
     text-align: center;
     font-size: small;
     letter-spacing: 2px;
-    color: #3b275e;
+    color: #444344;
     font-weight: bold;
+    width: 480px;
+    margin-left: 200px;
   }
 
   .menuText_Z {
