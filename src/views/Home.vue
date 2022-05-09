@@ -266,7 +266,7 @@
 
 @media (max-width: 900px) {
   .over p {
-    font-size: x-small;
+    font-size: small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
@@ -292,7 +292,7 @@
   .HomesTOP .HomeTopText2 p {
     margin-top: 35px;
     text-align: center;
-    font-size: x-small;
+    font-size: small;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
