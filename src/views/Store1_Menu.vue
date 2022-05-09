@@ -142,13 +142,6 @@
 </template>
 
 <style>
-.menu a {
-  text-align: center;
-  letter-spacing: 2px;
-  color: #3b275e;
-  font-weight: bold;
-}
-
 body {
   width: 100%;
 }
@@ -233,7 +226,7 @@ body {
 
 .menuText a {
   text-align: center;
-  font-size: 20px;
+  font-size: 17px;
   letter-spacing: 2px;
   color: #3b275e;
   font-weight: bold;
@@ -259,11 +252,6 @@ body {
   margin-top: 3.25%;
 }
 
-span {
-  font-size: 20px;
-  margin-left: 20px;
-}
-
 .menusTOP {
   margin-top: 75px;
 }
@@ -274,6 +262,14 @@ span {
     font-size: 14.5px;
     letter-spacing: 2px;
     color: #444344;
+    font-weight: bold;
+  }
+
+  .menuText a {
+    text-align: center;
+    font-size: 14.5px;
+    letter-spacing: 2px;
+    color: #3b275e;
     font-weight: bold;
   }
 
@@ -313,6 +309,14 @@ span {
     font-size: small;
     letter-spacing: 2px;
     color: #444344;
+    font-weight: bold;
+  }
+
+  .menuText a {
+    text-align: center;
+    font-size: small;
+    letter-spacing: 2px;
+    color: #3b275e;
     font-weight: bold;
   }
 
