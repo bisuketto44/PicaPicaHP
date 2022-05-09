@@ -237,8 +237,8 @@ span {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 740px;
-    margin-left: 350px;
+    width: 640px;
+    margin-left: 400px;
   }
 
   .OtherBOX img {
@@ -266,8 +266,8 @@ span {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 480px;
-    margin-left: 200px;
+    width: 380px;
+    margin-left: 250px;
   }
 
   .OtherTextFoot {

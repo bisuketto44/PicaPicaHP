@@ -264,8 +264,8 @@ span {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 740px;
-    margin-left: 350px;
+    width: 640px;
+    margin-left: 390px;
   }
 
   .Recruit img {
@@ -290,8 +290,8 @@ span {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 740px;
-    margin-left: 20px;
+    width: 640px;
+    margin-left: 40px;
   }
 
   .recToptext {
@@ -313,8 +313,8 @@ span {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 480px;
-    margin-left: 210px;
+    width: 380px;
+    margin-left: 265px;
   }
 
   .recTOP .recToptext {
@@ -324,8 +324,8 @@ span {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 480px;
-    margin-left: 210px;
+    width: 380px;
+    margin-left: 260px;
   }
 
   .menuTextfotter {
@@ -334,7 +334,7 @@ span {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 480px;
+    width: 380px;
     margin-left: 30px;
   }
 
