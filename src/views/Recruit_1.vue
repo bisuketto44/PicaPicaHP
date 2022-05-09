@@ -211,7 +211,7 @@ body {
   height: 230px;
 }
 
-.Recrute_Texts p {
+.Recrute_Texts {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -219,7 +219,7 @@ body {
   font-weight: bold;
 }
 
-.menuTextfotter p {
+.menuTextfotter {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -227,7 +227,7 @@ body {
   font-weight: bold;
 }
 
-.recToptext p {
+.recToptext {
   margin-top: 100px;
   text-align: center;
   font-size: 17px;
@@ -309,7 +309,7 @@ span {
 @media (max-width: 900px) {
   .Recrute_Texts {
     text-align: center;
-    font-size: large;
+    font-size: x-large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
