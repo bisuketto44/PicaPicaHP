@@ -121,18 +121,18 @@
           お知らせ等などの詳しい情報は以下をご参照ください<br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
           <a
-            href="https://www.facebook.com/picapicasiyakusyoten/"
+            href="https://www.facebook.com/picapicasagyousyo"
             target="_blank"
             rel="noopener noreferrer"
             class="btn facebook"
-            ><span class="fa fa-facebook-square"></span>今週のメニュー詳細</a
+            ><span class="fa fa-facebook-square"></span>FaceBook</a
           ><br />
           <a
-            href="https://www.facebook.com/picapicasiyakusyoten/"
+            href="https://instagram.com/picapica7475?igshid=YmMyMTA2M2Y="
             target="_blank"
             rel="noopener noreferrer"
             class="btn instagram"
-            ><span class="fa fa-instagram"></span>今週のメニュー詳細</a
+            ><span class="fa fa-instagram"></span>Instagram</a
           >
           <br /><br /><br />
         </p>
