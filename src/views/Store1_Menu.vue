@@ -259,7 +259,7 @@ body {
 @media (max-width: 1919px) {
   .menuText {
     text-align: center;
-    font-size: 14.5px;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
@@ -269,7 +269,7 @@ body {
 
   .menuText a {
     text-align: center;
-    font-size: 14.5px;
+    font-size: medium;
     letter-spacing: 2px;
     color: #3b275e;
     font-weight: bold;
@@ -277,7 +277,7 @@ body {
 
   .menuText_Z {
     text-align: center;
-    font-size: 14.5px;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;

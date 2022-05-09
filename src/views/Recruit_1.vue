@@ -260,10 +260,12 @@ span {
 @media (max-width: 1919px) {
   .Recrute_Texts p {
     text-align: center;
-    font-size: 14.5px;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 740px;
+    margin-left: 350px;
   }
 
   .Recruit img {
@@ -282,40 +284,58 @@ span {
     height: 250px;
   }
 
-  .recToptext p {
-    margin-top: 100px;
+  .menuTextfotter p {
     text-align: center;
-    font-size: 14.5px;
+    font-size: large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 740px;
+    margin-left: 20px;
+  }
+
+  .recToptext p {
+    margin-top: 100px;
+    text-align: center;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+    width: 740px;
+    margin-left: 350px;
   }
 }
 
 @media (max-width: 900px) {
   .Recrute_Texts p {
     text-align: center;
-    font-size: x-small;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 480px;
+    margin-left: 200px;
   }
 
   .recTOP .recToptext p {
     margin-top: 100px;
     text-align: center;
-    font-size: x-small;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 480px;
+    margin-left: 200px;
   }
 
   .menuTextfotter p {
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 480px;
+    margin-left: 30px;
   }
 
   .Recruit img {
