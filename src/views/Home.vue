@@ -19,21 +19,21 @@
       <h2>●概要</h2>
 
       <div class="over">
-        <p>○照合 / 社会福祉法人ゆるり福祉会</p>
-        <p>○創業 / 1998 年 6月</p>
-        <p>○設立 / 2006 年 4月</p>
-        <p>○代表者 / 井藤 陽介</p>
-        <p>○所在地 /</p>
-        <ul>
+        <p class="test">○照合 / 社会福祉法人ゆるり福祉会</p>
+        <p class="test">○創業 / 1998 年 6月</p>
+        <p class="test">○設立 / 2006 年 4月</p>
+        <p class="test">○代表者 / 井藤 陽介</p>
+        <p class="test">○所在地 /</p>
+        <ul class="test">
           <li>〒581-0043</li>
           <li>大阪府八尾市空港 1-146-2 大阪府中部広防災域防災拠点前</li>
           <li>TEL 072-997-7475</li>
           <li>FAX 072-993-1847</li>
           <li>pica2@eco.ocn.ne.jp</li>
         </ul>
-        <p>○事前認可 / 指定障がい者福祉サービス事業者</p>
-        <p>○障がい福祉サービスの種類 / 就労継続支援B型(35名)</p>
-        <p>
+        <p class="test">○事前認可 / 指定障がい者福祉サービス事業者</p>
+        <p class="test">○障がい福祉サービスの種類 / 就労継続支援B型(35名)</p>
+        <p class="test">
           ○事業内容 / パン・クッキー・ランチ(パスタ料理他)
           <br />&nbsp;&nbsp;軽食・喫茶・宅配弁当・陶芸・さをり・河内木綿<br />
           &nbsp;&nbsp;かみすき和紙・縫製・野菜づくりなど
@@ -159,7 +159,7 @@ span {
 .over {
   margin-top: 75px;
   margin-bottom: 75px;
-  margin-left: 40.5%;
+  margin-left: 35%;
 }
 
 .over2 {
@@ -214,6 +214,12 @@ span {
     font-weight: bold;
   }
 
+  .over {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 31.5%;
+  }
+
   .HomeTopText2 {
     text-align: center;
     font-size: small;
@@ -243,7 +249,7 @@ span {
   }
 
   .over {
-    margin-left: 20%;
+    margin-left: 29.5%;
   }
 
   .over li {

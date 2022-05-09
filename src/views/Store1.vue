@@ -59,7 +59,7 @@
         <h2>Floor Maps</h2>
         <div class="vision">
           <div class="BaseImg">
-            <img alt="image1" src="../assets/airport_map.png" />
+            <img alt="image1" src="../assets/air_port_map.png" />
           </div>
 
           <div class="popup_wrap">
@@ -492,31 +492,31 @@ li {
 #img17 {
   position: absolute;
   left: 30%;
-  top: 66%;
+  top: 62%;
 }
 
 #img18 {
   position: absolute;
   left: 36.5%;
-  top: 66%;
+  top: 62%;
 }
 
 #img19 {
   position: absolute;
   left: 47%;
-  top: 63%;
+  top: 62%;
 }
 
 #img20 {
   position: absolute;
   left: 55%;
-  top: 63%;
+  top: 62%;
 }
 
 #img21 {
   position: absolute;
   left: 58%;
-  top: 63%;
+  top: 62%;
 }
 
 #img22 {
@@ -528,25 +528,25 @@ li {
 #img23 {
   position: absolute;
   left: 65%;
-  top: 63%;
+  top: 62%;
 }
 
 #img24 {
   position: absolute;
   left: 65%;
-  top: 69%;
+  top: 67%;
 }
 
 #img25 {
   position: absolute;
   left: 30%;
-  top: 77%;
+  top: 75%;
 }
 
 #img26 {
   position: absolute;
   left: 34.5%;
-  top: 77%;
+  top: 75%;
 }
 
 @media (max-width: 1919px) {
@@ -567,49 +567,49 @@ li {
   #img17 {
     position: absolute;
     left: 22.5%;
-    top: 69%;
+    top: 67%;
   }
 
   #img18 {
     position: absolute;
     left: 32.5%;
-    top: 69%;
+    top: 67%;
   }
 
   #img19 {
     position: absolute;
     left: 47%;
-    top: 69%;
+    top: 67%;
   }
 
   #img20 {
     position: absolute;
     left: 57%;
-    top: 69%;
+    top: 67%;
   }
 
   #img21 {
     position: absolute;
     left: 62%;
-    top: 69%;
+    top: 67%;
   }
 
   #img22 {
     position: absolute;
     left: 62.5%;
-    top: 73%;
+    top: 70%;
   }
 
   #img23 {
     position: absolute;
-    left: 73%;
-    top: 69%;
+    left: 70%;
+    top: 67%;
   }
 
   #img24 {
     position: absolute;
     left: 70%;
-    top: 73%;
+    top: 72%;
   }
 
   #img25 {
