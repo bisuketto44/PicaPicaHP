@@ -309,7 +309,7 @@ span {
 @media (max-width: 900px) {
   .Recrute_Texts {
     text-align: center;
-    font-size: large;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
@@ -320,7 +320,7 @@ span {
   .recTOP .recToptext {
     margin-top: 100px;
     text-align: center;
-    font-size: large;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
@@ -330,7 +330,7 @@ span {
 
   .menuTextfotter {
     text-align: center;
-    font-size: large;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
