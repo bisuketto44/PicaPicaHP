@@ -1,6 +1,6 @@
 <template>
-  <div class="menu">
-    <div class="Recruit_Top">
+  <div class="menu2">
+    <div class="Recruit2_Top">
       <img alt="image1" src="../assets/RecruteIcon.png" />
       <h1>Recruit <span>市役所店</span></h1>
     </div>
@@ -17,13 +17,13 @@
       </div>
     </div>
 
-    <div class="menus">
+    <div class="menu2s">
       <h2>●作業風景</h2>
       <div class="Recruit">
         <img alt="image1" src="../assets/city_member01.png" />
         <img alt="image1" src="../assets/city_member02.png" />
       </div>
-      <div class="Recrute_Texts">
+      <div class="Recrute2_Texts">
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -33,10 +33,10 @@
       </div>
     </div>
 
-    <div class="menus">
+    <div class="menu2s">
       <h2>●他店について</h2>
-      <div class="MenuTextFoot">
-        <div class="menuTextfotter">
+      <div class="menu2TextFoot">
+        <div class="menu2Textfotter">
           <p>
             空港店に関しての募集情報は以下をご覧ください。<br /><br />
             <router-link class="route2" to="/recruit-1"
@@ -58,7 +58,7 @@ body {
   color: #3b275e;
 }
 
-.menu h2 {
+.menu2 h2 {
   margin-left: 15%;
   font-weight: bold;
   letter-spacing: 3px;
@@ -68,7 +68,7 @@ body {
   font-size: 25px;
 }
 
-.Recruit_Top {
+.Recruit2_Top {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,7 +79,7 @@ body {
   background-size: cover;
 }
 
-.Recruit_Top h1 {
+.Recruit2_Top h1 {
   font-weight: bold;
   letter-spacing: 5px;
   color: #313031;
@@ -87,7 +87,7 @@ body {
   margin-left: 23.5px;
 }
 
-.Recruit_Top img {
+.Recruit2_Top img {
   width: 60px;
   height: 60px;
 }
@@ -116,7 +116,7 @@ body {
   height: 230px;
 }
 
-.Recrute_Texts p {
+.Recrute2_Texts p {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -124,7 +124,7 @@ body {
   font-weight: bold;
 }
 
-.menuTextfotter p {
+.menu2Textfotter p {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -141,7 +141,7 @@ body {
   font-weight: bold;
 }
 
-.MenuTextFoot {
+.menu2TextFoot {
   height: 235px;
   display: flex;
   justify-content: center;
@@ -149,7 +149,7 @@ body {
   flex-direction: column;
 }
 
-.menus {
+.menu2s {
   margin-top: 3.25%;
 }
 
@@ -163,7 +163,7 @@ span {
 }
 
 @media (max-width: 1919px) {
-  .Recrute_Texts p {
+  .Recrute2_Texts p {
     text-align: center;
     font-size: 14.5px;
     letter-spacing: 2px;
@@ -193,7 +193,7 @@ span {
 }
 
 @media (max-width: 900px) {
-  .Recrute_Texts p {
+  .Recrute2_Texts p {
     text-align: center;
     font-size: x-small;
     letter-spacing: 2px;
@@ -210,7 +210,7 @@ span {
     font-weight: bold;
   }
 
-  .menuTextfotter p {
+  .menu2Textfotter p {
     text-align: center;
     font-size: x-large;
     letter-spacing: 2px;
@@ -229,7 +229,7 @@ span {
     height: 220px;
   }
 
-  .menus {
+  .menu2s {
     margin-top: 50px;
   }
 }
