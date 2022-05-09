@@ -9,29 +9,29 @@
       <h2>●モーニングサービス<span>8:00 ~ 11:00</span></h2>
       <div class="menuBOX">
         <div class="floatmenus">
-          <p class="menuText">[モーニングAセット]</p>
+          <p class="menuText_Z">[モーニングAセット]</p>
           <img alt="image1" src="../assets/airport_01.png" />
         </div>
 
         <div class="floatmenus">
-          <p class="menuText">[モーニングBセット]</p>
+          <p class="menuText_Z">[モーニングBセット]</p>
           <img alt="image1" class="air_02" src="../assets/airport_02.png" />
         </div>
 
         <div class="floatmenus">
-          <p class="menuText">[モーニングCセット]</p>
+          <p class="menuText_Z">[モーニングCセット]</p>
           <img alt="image1" src="../assets/airport_03.png" />
         </div>
       </div>
 
       <div class="menuBOX">
         <div class="floatmenus">
-          <p class="menuText">[ピザトーストセット]</p>
+          <p class="menuText_Z">[ピザトーストセット]</p>
           <img alt="image1" src="../assets/airport_04.png" />
         </div>
 
         <div class="floatmenus">
-          <p class="menuText">[サンドイッチセット]</p>
+          <p class="menuText_Z">[サンドイッチセット]</p>
           <img alt="image1" src="../assets/airport_05.png" />
         </div>
       </div>
@@ -42,49 +42,49 @@
 
       <div class="menuBOX_Z">
         <div class="floatmenus">
-          <p class="menuText">[日替わりランチ]</p>
+          <p class="menuText_Z">[日替わりランチ]</p>
           <img alt="image1" src="../assets/airport_06.png" />
         </div>
 
         <div class="floatmenus">
-          <p class="menuText">[週替わりパスタランチ]</p>
+          <p class="menuText_Z">[週替わりパスタランチ]</p>
           <img alt="image1" src="../assets/airport_07.png" />
         </div>
 
         <div class="floatmenus">
-          <p class="menuText">[週替わりハンバーグランチ]</p>
+          <p class="menuText_Z">[週替わりハンバーグランチ]</p>
           <img alt="image1" src="../assets/airport_08.png" />
         </div>
 
         <div class="floatmenus">
-          <p class="menuText">[自家製ミートソースドリアランチ]</p>
+          <p class="menuText_Z">[自家製ミートソースドリアランチ]</p>
           <img alt="image1" src="../assets/airport_09.png" />
         </div>
       </div>
 
       <div class="menuBOX_Z">
         <div class="floatmenus">
-          <p class="menuText">[自家製カツカレーランチ]</p>
-          <img alt="image1" src="../assets/airport_06.png" />
+          <p class="menuText_Z">[自家製カツカレーランチ]</p>
+          <img alt="image1" src="../assets/airport_10.png" />
         </div>
 
         <div class="floatmenus">
-          <p class="menuText">[週替わりオムライスランチ]</p>
-          <img alt="image1" src="../assets/airport_07.png" />
+          <p class="menuText_Z">[週替わりオムライスランチ]</p>
+          <img alt="image1" src="../assets/airport_11.png" />
         </div>
 
         <div class="floatmenus">
-          <p class="menuText">
+          <p class="menuText_Z">
             [週替わりミニハンバーグとミニドリアのコンビネーションランチ]
           </p>
-          <img alt="image1" src="../assets/airport_08.png" />
+          <img alt="image1" src="../assets/airport_12.jpg" />
         </div>
 
         <div class="floatmenus">
-          <p class="menuText">
+          <p class="menuText_Z">
             [週替わりミニパスタとミニドリアのコンビネーションランチ]
           </p>
-          <img alt="image1" src="../assets/airport_09.png" />
+          <img alt="image1" src="../assets/airport_13.png" />
         </div>
       </div>
     </div>
@@ -114,13 +114,9 @@
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
         >
       </h2>
-      <div class="menuBOX">
-        <img alt="image1" src="../assets/airport_14.png" />
-        <img alt="image1" src="../assets/airport_15.png" />
-        <img alt="image1" src="../assets/airport_16.png" />
-      </div>
       <div class="menuText">
         <p>
+          <br />
           今週のメニュー 定休日
           お知らせ等などの詳しい情報は以下をご参照ください<br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
@@ -251,6 +247,14 @@ body {
   font-weight: bold;
 }
 
+.menuText_Z {
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
 .MenuTextFoot {
   height: 300px;
   display: flex;
@@ -274,6 +278,14 @@ span {
 
 @media (max-width: 1919px) {
   .menuText {
+    text-align: center;
+    font-size: 14.5px;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .menuText_Z {
     text-align: center;
     font-size: 14.5px;
     letter-spacing: 2px;
@@ -320,9 +332,17 @@ span {
     font-weight: bold;
   }
 
-  .menu a {
+   .menuText_Z {
     text-align: center;
     font-size: medium;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+  }
+
+  .menu a {
+    text-align: center;
+    font-size: small;
     letter-spacing: 2px;
     color: #3b275e;
     font-weight: bold;

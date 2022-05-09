@@ -217,7 +217,7 @@ span {
   .over {
     margin-top: 75px;
     margin-bottom: 75px;
-    margin-left: 31.5%;
+    margin-left: 30.5%;
   }
 
   .HomeTopText2 {
@@ -249,7 +249,7 @@ span {
   }
 
   .over {
-    margin-left: 29.5%;
+    margin-left: 27.5%;
   }
 
   .over li {
