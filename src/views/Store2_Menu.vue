@@ -1,72 +1,72 @@
 <template>
-  <div class="menu">
+  <div class="menu_City">
     <div class="City_Menu_Top">
       <img alt="image1" src="../assets/menuicon.png" />
       <h1>Menu<span>市役所店</span></h1>
     </div>
 
-    <div class="menusTOP">
+    <div class="menuTop_City">
       <h2>●モーニングサービス<span>9:00 ~ 11:30</span></h2>
-      <div class="menuBOX">
+      <div class="menuBox_city">
         <img alt="image1" src="../assets/city_morning01.png" />
         <img alt="image1" src="../assets/city_morning04.jpg" />
         <img alt="image1" src="../assets/city_morning02.png" />
         <img alt="image1" src="../assets/city_morning03.png" />
       </div>
-      <div class="menuText">
+      <div class="menutext_city">
         <p>
           無添加の食パンを毎日お店で焼いています。<br />ドレッシングやソースも自家製にこだわって提供しています。
         </p>
       </div>
     </div>
 
-    <div class="menus">
+    <div class="menus_city">
       <h2>●ランチタイム<span>11:30 ~ 15:00</span></h2>
-      <div class="menuBOX">
+      <div class="menuBox_city">
         <img alt="image1" src="../assets/city_lunch01.png" />
         <img alt="image1" src="../assets/city_lunch02.png" />
         <img alt="image1" src="../assets/city_lunch03.png" />
         <img alt="image1" src="../assets/city_lunch04.png" />
       </div>
-      <div class="menuText">
+      <div class="menutext_city">
         <p>
           定番メニューから、季節の食材を使用したランチメニューを<br />週替わりで提供しております。
         </p>
       </div>
     </div>
 
-    <div class="menus">
+    <div class="menus_city">
       <h2>●おまかせの日替わり弁当<span>11:00 ~ 13:00</span></h2>
-      <div class="menuBOX">
+      <div class="menuBox_city">
         <img alt="image1" src="../assets/city_bentou01.png" />
         <img alt="image1" src="../assets/city_bentou02.png" />
       </div>
-      <div class="menuText">
+      <div class="menutext_city">
         <p>
           日替わりで提供しております。<br />味、ボリューム、お値段、お得なお弁当です。
         </p>
       </div>
     </div>
 
-    <div class="menus">
+    <div class="menus_city">
       <h2>●カフェ<span>9:00 ~ 16:30 (ラストオーダー 16:00)</span></h2>
-      <div class="menuBOX">
+      <div class="menuBox_city">
         <img alt="image1" src="../assets/city_cafe01.png" />
         <img alt="image1" src="../assets/city_cafe02.png" />
         <img alt="image1" src="../assets/city_cafe03.png" />
         <img alt="image1" src="../assets/city_cafe04.png" />
       </div>
-      <div class="menuText">
+      <div class="menutext_city">
         <p>
           スイーツはすべて店内で手作り。<br />旬のフルーツを使ったジュースは生絞り無添加です。
         </p>
       </div>
     </div>
 
-    <div class="menus">
+    <div class="menus_city">
       <h2>●今週のメニュー</h2>
-      <div class="MenuTextFoot">
-        <div class="menuBOX">
+      <div class="menutext_cityFoot">
+        <div class="menuBox_city">
           <a
             href="https://www.facebook.com/picapicasiyakusyoten/"
             target="_blank"
@@ -75,7 +75,7 @@
             ><span class="fa fa-facebook-square"></span>今週のメニュー詳細</a
           >
         </div>
-        <div class="menuText">
+        <div class="menutext_city2">
           <p>市役所店Facebookをご参照下さい。</p>
         </div>
       </div>
@@ -88,7 +88,7 @@ body {
   width: 100%;
 }
 
-.menu h2 {
+.menu_City h2 {
   margin-left: 15%;
   font-weight: bold;
   letter-spacing: 3px;
@@ -122,12 +122,12 @@ body {
   height: 60px;
 }
 
-.menuBOX {
+.menuBox_city {
   text-align: center;
   margin-top: 1.5%;
 }
 
-.menuBOX a {
+.menuBox_city a {
   text-align: center;
   font-size: 20px;
   letter-spacing: 2px;
@@ -135,13 +135,13 @@ body {
   font-weight: bold;
 }
 
-.menuBOX img {
+.menuBox_city img {
   width: 220px;
   height: 280px;
   margin: 2%;
 }
 
-.menuText {
+.menutext_city {
   text-align: center;
   font-size: 17px;
   letter-spacing: 2px;
@@ -149,7 +149,7 @@ body {
   font-weight: bold;
 }
 
-.MenuTextFoot {
+.menutext_cityFoot {
   height: 300px;
   display: flex;
   justify-content: center;
@@ -157,7 +157,7 @@ body {
   flex-direction: column;
 }
 
-.menus {
+.menus_city {
   margin-top: 3.25%;
 }
 
@@ -166,20 +166,31 @@ span {
   margin-left: 20px;
 }
 
-.menusTOP {
+.menuTop_City {
   margin-top: 75px;
 }
 
 @media (max-width: 1919px) {
-  .menuText {
+  .menutext_city {
     text-align: center;
-    font-size: 14.5px;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 740px;
+    margin-left: 350px;
   }
 
-  .menuBOX img {
+  .menutext_city2 {
+    text-align: center;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+
+  .menuBox_city img {
     width: 190px;
     height: 250px;
     margin: 2%;
@@ -187,27 +198,37 @@ span {
 }
 
 @media (max-width: 900px) {
-  .menuText {
+  .menutext_city {
     text-align: center;
-    font-size: x-small;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 480px;
+    margin-left: 200px;
   }
 
-  .MenuTextFoot {
+  .menutext_cityFoot {
     height: 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 480px;
+    margin-left: 200px;
   }
 
-  .menus {
+  .menutext_city2 {
+    text-align: center;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+
+  .menus_city {
     margin-top: 35px;
   }
 
-  .menuBOX img {
+  .menuBox_city img {
     width: 160px;
     height: 220px;
     margin: 2%;

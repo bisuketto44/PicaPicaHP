@@ -284,7 +284,7 @@ body {
 
   .menuText_F {
     text-align: center;
-    font-size: large;
+    font-size: 21px;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
