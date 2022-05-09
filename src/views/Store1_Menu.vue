@@ -298,9 +298,9 @@ span {
     font-weight: bold;
   }
 
-  .menu a {
+  .menuText a {
     text-align: center;
-    font-size: 14.5px;
+    font-size: 20px;
     letter-spacing: 2px;
     color: #3b275e;
     font-weight: bold;
