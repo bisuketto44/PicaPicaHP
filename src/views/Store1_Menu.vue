@@ -115,27 +115,29 @@
         >
       </h2>
       <div class="menuText_F">
-        <p>
-          <br />
-          今週のメニュー 定休日
-          お知らせ等などの詳しい情報は以下をご参照ください<br />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-        </p>
-        <a
-          href="https://www.facebook.com/picapicasagyousyo"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn facebook"
-          ><span class="fa fa-facebook-square"></span>FaceBook</a
-        ><br />
-        <a
-          href="https://instagram.com/picapica7475?igshid=YmMyMTA2M2Y="
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn instagram"
-          ><span class="fa fa-instagram"></span>Instagram</a
-        >
-        <br /><br /><br />
+        <div class="temp2">
+          <p>
+            <br />
+            今週のメニュー 定休日
+            お知らせ等などの詳しい情報は以下をご参照ください<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+          </p>
+          <a
+            href="https://www.facebook.com/picapicasagyousyo"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn facebook"
+            ><span class="fa fa-facebook-square"></span>FaceBook</a
+          ><br />
+          <a
+            href="https://instagram.com/picapica7475?igshid=YmMyMTA2M2Y="
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn instagram"
+            ><span class="fa fa-instagram"></span>Instagram</a
+          >
+          <br /><br /><br />
+        </div>
       </div>
     </div>
   </div>
@@ -282,12 +284,17 @@ body {
     margin-left: 350px;
   }
 
+  .temp2 {
+    font-size: large;
+  }
+
   .menuText_F {
     text-align: center;
-    font-size: large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 740px;
+    margin-left: 350px;
   }
 
   .menuText a {
