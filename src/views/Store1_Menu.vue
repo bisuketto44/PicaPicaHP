@@ -284,12 +284,10 @@ body {
 
   .menuText_F {
     text-align: center;
-    font-size: 21px;
+    font-size: large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 740px;
-    margin-left: 350px;
   }
 
   .menuText a {
