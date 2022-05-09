@@ -233,10 +233,12 @@ span {
 @media (max-width: 1919px) {
   .OtherText {
     text-align: center;
-    font-size: 14.5px;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 740px;
+    margin-left: 350px;
   }
 
   .OtherBOX img {
@@ -260,10 +262,12 @@ span {
 @media (max-width: 900px) {
   .OtherText {
     text-align: center;
-    font-size: x-small;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 480px;
+    margin-left: 200px;
   }
 
   .OtherTextFoot {
