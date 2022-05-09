@@ -120,22 +120,22 @@
           今週のメニュー 定休日
           お知らせ等などの詳しい情報は以下をご参照ください<br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
-          <a
-            href="https://www.facebook.com/picapicasagyousyo"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn facebook"
-            ><span class="fa fa-facebook-square"></span>FaceBook</a
-          ><br />
-          <a
-            href="https://instagram.com/picapica7475?igshid=YmMyMTA2M2Y="
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn instagram"
-            ><span class="fa fa-instagram"></span>Instagram</a
-          >
-          <br /><br /><br />
         </p>
+        <a
+          href="https://www.facebook.com/picapicasagyousyo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn facebook"
+          ><span class="fa fa-facebook-square"></span>FaceBook</a
+        ><br />
+        <a
+          href="https://instagram.com/picapica7475?igshid=YmMyMTA2M2Y="
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn instagram"
+          ><span class="fa fa-instagram"></span>Instagram</a
+        >
+        <br /><br /><br />
       </div>
     </div>
   </div>
@@ -147,11 +147,6 @@
   letter-spacing: 2px;
   color: #3b275e;
   font-weight: bold;
-}
-
-span {
-  font-size: 20px;
-  margin-left: 20px;
 }
 
 body {
@@ -212,22 +207,6 @@ body {
   height: 280px;
 }
 
-.menuBOX a {
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: 2px;
-  color: #3b275e;
-  font-weight: bold;
-}
-
-.menuBOX_Z a {
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: 2px;
-  color: #3b275e;
-  font-weight: bold;
-}
-
 .menuBOX img {
   width: 220px;
   height: 280px;
@@ -249,6 +228,14 @@ body {
   font-size: 17px;
   letter-spacing: 2px;
   color: #444344;
+  font-weight: bold;
+}
+
+.menuText a {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #3b275e;
   font-weight: bold;
 }
 
@@ -298,14 +285,6 @@ span {
     font-weight: bold;
   }
 
-  .menuText a {
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: #3b275e;
-    font-weight: bold;
-  }
-
   .menuBOX img {
     width: 190px;
     height: 250px;
@@ -342,14 +321,6 @@ span {
     font-size: medium;
     letter-spacing: 2px;
     color: #444344;
-    font-weight: bold;
-  }
-
-  .menu a {
-    text-align: center;
-    font-size: small;
-    letter-spacing: 2px;
-    color: #3b275e;
     font-weight: bold;
   }
 
