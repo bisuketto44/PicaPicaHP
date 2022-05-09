@@ -263,6 +263,8 @@ body {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 740px;
+    margin-left: 350px;
   }
 
   .menuText a {
