@@ -309,7 +309,7 @@ span {
 @media (max-width: 900px) {
   .Recrute_Texts p {
     text-align: center;
-    font-size: medium;
+    font-size: large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
