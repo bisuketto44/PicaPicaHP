@@ -258,14 +258,14 @@
 
 @media (max-width: 900px) {
   .over p {
-    font-size: small;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
     width: 480px;
     /* 2行目以降を改行 */
-    padding-left: 7.5em;
-    text-indent: -7.5em;
+    padding-left: 18%;
+    text-indent: -32%;
   }
 
   .over {
