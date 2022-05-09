@@ -307,30 +307,30 @@ span {
 }
 
 @media (max-width: 900px) {
-  .Recrute_Texts p {
+  .Recrute_Texts {
     text-align: center;
-    font-size: medium;
+    font-size: large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
     width: 480px;
-    margin-left: 200px;
+    margin-left: 210px;
   }
 
-  .recTOP .recToptext p {
+  .recTOP .recToptext {
     margin-top: 100px;
     text-align: center;
-    font-size: medium;
+    font-size: large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
     width: 480px;
-    margin-left: 200px;
+    margin-left: 210px;
   }
 
-  .menuTextfotter p {
+  .menuTextfotter {
     text-align: center;
-    font-size: medium;
+    font-size: large;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
