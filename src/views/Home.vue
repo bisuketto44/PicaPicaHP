@@ -28,20 +28,12 @@
           <p class="test">○代表者 / 角川 博泉</p>
           <p class="test">
             ○所在地 / ・〒581-0043&nbsp;大阪府八尾市空港1-146-2
-            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(大阪府中部広防災域防災拠点前)
-            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;・TEL
-            : 072-997-7475
-            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;・FAX
-            : 072-993-1847
-            <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;・Mail
-            : pica2@eco.ocn.ne.jp
+            <br />(大阪府中部広防災域防災拠点前) <br />・TEL : 072-997-7475
+            <br />・FAX : 072-993-1847 <br />・Mail : pica2@eco.ocn.ne.jp
           </p>
           <p class="test">○事業認可 / 指定障害者福祉サービス事業者</p>
           <p class="test">○障がい福祉サービスの種類 / 就労継続支援B型(40名)</p>
-          <p class="test">
-            ○苦情受付 / 担当者 井藤<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;責任者
-            角川
-          </p>
+          <p class="test">○苦情受付 / 担当者 井藤<br />責任者 角川</p>
         </div>
       </div>
     </div>
@@ -271,7 +263,9 @@
     color: #444344;
     font-weight: bold;
     width: 480px;
-    text-align: left;
+    /* 2行目以降を改行 */
+    padding-left: 7.5em;
+    text-indent: -7.5em;
   }
 
   .over {
