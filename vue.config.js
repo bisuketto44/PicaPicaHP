@@ -4,7 +4,7 @@ const {
 } = require('./src/router');
 
 var sitemapRoutes = routes.map(x => {
-  x.path = `/PicaPicaHP${x.path}`;
+  x.path = `/#/${x.path}`;
   return x;
 })
 
@@ -14,7 +14,7 @@ module.exports = {
   publicPath: './',
   pluginOptions: {
     sitemap: {
-      baseURL: 'https://bisuketto44.github.io',
+      baseURL: 'https://master--picapicahp.netlify.app',
       routes: sitemapRoutes,
     }
   }
