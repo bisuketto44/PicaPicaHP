@@ -258,7 +258,7 @@ span {
 }
 
 @media (max-width: 1919px) {
-  .Recrute_Texts p {
+  .Recrute_Texts {
     text-align: center;
     font-size: large;
     letter-spacing: 2px;
@@ -284,7 +284,7 @@ span {
     height: 250px;
   }
 
-  .menuTextfotter p {
+  .menuTextfotter {
     text-align: center;
     font-size: large;
     letter-spacing: 2px;
@@ -294,7 +294,7 @@ span {
     margin-left: 20px;
   }
 
-  .recToptext p {
+  .recToptext {
     margin-top: 100px;
     text-align: center;
     font-size: large;
@@ -309,7 +309,7 @@ span {
 @media (max-width: 900px) {
   .Recrute_Texts p {
     text-align: center;
-    font-size: large;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
