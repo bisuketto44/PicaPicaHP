@@ -271,6 +271,7 @@
     color: #444344;
     font-weight: bold;
     width: 480px;
+    text-align: left;
   }
 
   .over {
