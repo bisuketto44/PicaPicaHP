@@ -182,16 +182,11 @@
   letter-spacing: 2px;
   color: #444344;
   font-weight: bold;
+  padding-left: 7.3em;
+  text-indent: -7.3em;
 }
 
 .over2 p {
-  font-size: 17px;
-  letter-spacing: 2px;
-  color: #444344;
-  font-weight: bold;
-}
-
-.over2 li {
   font-size: 17px;
   letter-spacing: 2px;
   color: #444344;
@@ -222,6 +217,16 @@
     margin-top: 75px;
     margin-bottom: 75px;
     margin-left: 30.5%;
+  }
+
+  .over p {
+    letter-spacing: 2px;
+    color: #444344;
+    font-weight: bold;
+    width: 740px;
+    /* 2行目以降を改行 */
+    padding-left: 7.3em;
+    text-indent: -7.3em;
   }
 
   .HomeTopText2 {
@@ -264,8 +269,8 @@
     font-weight: bold;
     width: 480px;
     /* 2行目以降を改行 */
-    padding-left: 18%;
-    text-indent: -32%;
+    padding-left: 7.8em;
+    text-indent: -7.8em;
   }
 
   .over {
@@ -273,10 +278,14 @@
   }
 
   .over2 p {
-    font-size: xx-small;
+    font-size: medium;
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .over2 a {
