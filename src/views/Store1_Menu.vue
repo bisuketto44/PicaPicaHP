@@ -310,6 +310,8 @@ body {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
+    width: 480px;
+    margin-left: 200px;
   }
 
   .menuText a {
