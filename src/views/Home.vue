@@ -8,12 +8,12 @@
     <div class="HomesTOP">
       <div class="HomeTopText2">
         <p>
-          &nbsp;社会福祉法人ゆるり福祉会は、故柏木順子が中心となって設立されました。柏木は、「ノーマライゼーション」という理念がまだ世の中には目新しく、「インクルージョン」や
-          「インテグレーション」という理念があらわれていなかったころから、障がいのある人と障がいのない人が同じ環境で生活できる地域社会を実現しようと、一市民として様々な取り組みを実践していました。<br />&nbsp;柏木は、障害のある人は助けられるだけの存在ではなく、適切な支援と環境が整えば、社会とつながり、地域で生活していくことができると考え、
+          &nbsp;&nbsp;社会福祉法人ゆるり福祉会は、故柏木順子が中心となって設立されました。柏木は、「ノーマライゼーション」という理念がまだ世の中には目新しく、「インクルージョン」や
+          「インテグレーション」という理念があらわれていなかったころから、障がいのある人と障がいのない人が同じ環境で生活できる地域社会を実現しようと、一市民として様々な取り組みを実践していました。<br />&nbsp;&nbsp;柏木は、障害のある人は助けられるだけの存在ではなく、適切な支援と環境が整えば、社会とつながり、地域で生活していくことができると考え、
           東部大阪障がい者労働センター(S63年6月)を設立し、にっこり作業所(H3年6月)とPicaPica
           作業所(H7年4月)を開所しました。これらが社会福祉法人ゆるり福祉会の前身となりました。
           <br />&nbsp;柏木は、障がいのある人と障がいのない人が協力して仕事をする場を作り、そこに集う人々の日々の生活を支えました。現在の公的な福祉サービスがまだ確立される前で、
-          「就労継続支援B型」という言葉もない時代でした。<br />&nbsp;私たち社会福祉法人ゆるり福祉会は、柏木のおもいを引継ぎ、本当のノーマライゼーション社会を実現すべく取り組み続けてまいります。
+          「就労継続支援B型」という言葉もない時代でした。<br />&nbsp;&nbsp;私たち社会福祉法人ゆるり福祉会は、柏木のおもいを引継ぎ、本当のノーマライゼーション社会を実現すべく取り組み続けてまいります。
         </p>
       </div>
     </div>
@@ -58,13 +58,12 @@
     <div class="Homes">
       <h2>●基本理念</h2>
 
-      <div class="over2">
+      <div class="over3">
         <p>
-          ○利用者の基本的人権を保障および尊重し、障がいの有無に関わらず<br />
-          &nbsp;&nbsp;全ての人々が平等に生活する社会=ノーマライゼーション社会の<br />&nbsp;&nbsp;実現を目指します。
+          ○利用者の基本的人権を保障および尊重し、障がいの有無に関わらず、全ての人々が平等に生活する社会=ノーマライゼーション社会の実現を目指します。
         </p>
         <p>
-          ○利用者一人ひとりの人格・個性を尊重した<br />就労・社会参加・自立支援を実践し、<br />&nbsp;&nbsp;地域社会に開かれた施設作りを目指します。
+          ○利用者一人ひとりの人格・個性を尊重した就労・社会参加・自立支援を実践し、地域社会に開かれた施設作りを目指します。
         </p>
       </div>
     </div>
@@ -165,13 +164,26 @@
 .over {
   margin-top: 75px;
   margin-bottom: 75px;
-  margin-left: 40%;
+  margin-left: 38%;
 }
 
 .over2 {
   margin-top: 75px;
   margin-bottom: 75px;
   text-align: center;
+}
+
+.over3 {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  text-align: left;
+  margin-left: 33%;
+  width: 780px;
+}
+
+.over3 p {
+  margin-left: 1.6em;
+  text-indent: -1.15em; /*インデントの調整*/
 }
 
 .HomeTopText2 {
@@ -201,6 +213,13 @@
   font-weight: bold;
 }
 
+.over3 p {
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+}
+
 .over li {
   font-size: 17px;
   letter-spacing: 2px;
@@ -224,14 +243,15 @@
   .over {
     margin-top: 75px;
     margin-bottom: 75px;
-    margin-left: 32.5%;
+    margin-left: 33%;
+    width: 540px;
   }
 
   .over p {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 540px;
+
     /* 2行目以降を改行 */
     padding-left: 6.1em;
     text-indent: -6.1em;
@@ -239,6 +259,28 @@
 
   .otherp p {
     text-indent: 18.5px;
+  }
+
+  .over2 {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+  }
+
+  .over3 {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: left;
+    margin-left: 31.5%;
+    width: 540px;
+  }
+
+  .over3 p {
+    margin-left: 1.6em;
+    text-indent: -1.15em; /*インデントの調整*/
   }
 
   .HomeTopText2 {
@@ -281,16 +323,25 @@
     font-weight: bold;
     width: 480px;
     /* 2行目以降を改行 */
-    padding-left: 9em;
-    text-indent: -9em each-line;
+    padding-left: 6.1em;
+    text-indent: -6.1em;
   }
 
   .otherp p {
-    text-indent: 30.5px;
+    text-indent: 18.5px;
   }
 
   .over {
     margin-left: 27.5%;
+  }
+
+  .over2 {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .over2 p {
@@ -298,15 +349,27 @@
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 480px;
+
     display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .over2 a {
     font-size: large;
     letter-spacing: 1px;
+  }
+
+  .over3 {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+  }
+
+  .over3 p {
+    margin-left: 1.6em;
+    text-indent: -1.15em; /*インデントの調整*/
   }
 
   .HomesTOP .HomeTopText2 p {
