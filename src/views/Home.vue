@@ -27,9 +27,10 @@
           <p class="test">○設立 / 2006 年 3月</p>
           <p class="test">○代表者 / 角川 博泉</p>
           <p class="test">
-            ○所在地 / ・〒581-0043&nbsp;大阪府八尾市空港1-146-2
-            <br />(大阪府中部広防災域防災拠点前) <br />・TEL : 072-997-7475
-            <br />・FAX : 072-993-1847 <br />・Mail : pica2@eco.ocn.ne.jp
+            ○所在地&nbsp;/&nbsp;・〒581-0043&nbsp;大阪府八尾市空港1-146-2
+            <br />&nbsp;&nbsp;(大阪府中部広防災域防災拠点前) <br />・TEL :
+            072-997-7475 <br />・FAX : 072-993-1847 <br />・Mail :
+            pica2@eco.ocn.ne.jp
           </p>
           <p class="test">○事業認可 / 指定障害者福祉サービス事業者</p>
           <p class="test">○障がい福祉サービスの種類 / 就労継続支援B型(40名)</p>
@@ -185,8 +186,8 @@
   letter-spacing: 2px;
   color: #444344;
   font-weight: bold;
-  padding-left: 103.5px;
-  text-indent: -103.5px;
+  padding-left: 6em;
+  text-indent: -6em;
 }
 
 .otherp p {
@@ -232,8 +233,8 @@
     font-weight: bold;
     width: 540px;
     /* 2行目以降を改行 */
-    padding-left: 103.5px;
-    text-indent: -103.5px;
+    padding-left: 6em;
+    text-indent: -6em;
   }
 
   .otherp p {
@@ -280,8 +281,8 @@
     font-weight: bold;
     width: 480px;
     /* 2行目以降を改行 */
-    padding-left: 98.5px;
-    text-indent: -98.5px;
+    padding-left: 6em;
+    text-indent: -6em each-line;
   }
 
   .otherp p {
