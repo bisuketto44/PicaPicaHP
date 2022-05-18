@@ -186,8 +186,8 @@
   letter-spacing: 2px;
   color: #444344;
   font-weight: bold;
-  padding-left: 6em;
-  text-indent: -6em;
+  padding-left: 6.1em;
+  text-indent: -6.1em;
 }
 
 .otherp p {
@@ -224,7 +224,7 @@
   .over {
     margin-top: 75px;
     margin-bottom: 75px;
-    margin-left: 28.5%;
+    margin-left: 32.5%;
   }
 
   .over p {
@@ -233,8 +233,8 @@
     font-weight: bold;
     width: 540px;
     /* 2行目以降を改行 */
-    padding-left: 6em;
-    text-indent: -6em;
+    padding-left: 6.1em;
+    text-indent: -6.1em;
   }
 
   .otherp p {
@@ -281,12 +281,12 @@
     font-weight: bold;
     width: 480px;
     /* 2行目以降を改行 */
-    padding-left: 7.5em;
-    text-indent: -7.5em each-line;
+    padding-left: 9em;
+    text-indent: -9em each-line;
   }
 
   .otherp p {
-    text-indent: 25.5px;
+    text-indent: 30.5px;
   }
 
   .over {
