@@ -281,12 +281,12 @@
     font-weight: bold;
     width: 480px;
     /* 2行目以降を改行 */
-    padding-left: 6em;
-    text-indent: -6em each-line;
+    padding-left: 7.5em;
+    text-indent: -7.5em each-line;
   }
 
   .otherp p {
-    text-indent: 17.5px;
+    text-indent: 25.5px;
   }
 
   .over {
