@@ -34,9 +34,7 @@
             </ul>
             <p>行き方</p>
             <ul>
-              <li>
-                電車・JR関西線志紀駅より<br />徒歩約20分で
-              </li>
+              <li>電車・JR関西線志紀駅より<br />徒歩約20分で</li>
               <li>
                 バス<br />近鉄バス(近鉄八尾～藤井寺路線)<br />南木の本下車徒歩約15分
               </li>
@@ -222,9 +220,7 @@
               >
             </li>
             <li>
-              <router-link to="/recruit-1"
-                >空港店募集情報はこちら</router-link
-              >
+              <router-link to="/recruit-1">空港店募集情報はこちら</router-link>
             </li>
           </ul>
         </div>
@@ -256,7 +252,7 @@ export default {
             itemsToShow: 1,
           },
           1000: {
-            itemsToShow: 1.6,
+            itemsToShow: 1.45,
           },
           1900: {
             itemsToShow: 2.2,
@@ -522,7 +518,7 @@ li {
 #img22 {
   position: absolute;
   left: 60%;
-  top: 67%;
+  top: 68%;
 }
 
 #img23 {
@@ -534,7 +530,7 @@ li {
 #img24 {
   position: absolute;
   left: 65%;
-  top: 67%;
+  top: 68%;
 }
 
 #img25 {
@@ -555,11 +551,15 @@ li {
     margin-left: 70px;
   }
 
+  .BaseImg img {
+    width: 800px;
+  }
+
   .storeExp {
     /* 左右から見て中央寄せに */
     /* 上下から見て中央寄せに */
     /* align-items: center; */
-    margin-left: 28.5%;
+    margin-left: 24.5%;
     display: block;
     height: 900px;
   }
@@ -567,43 +567,43 @@ li {
   #img17 {
     position: absolute;
     left: 22.5%;
-    top: 67%;
+    top: 68%;
   }
 
   #img18 {
     position: absolute;
-    left: 32.5%;
-    top: 67%;
+    left: 30.5%;
+    top: 68%;
   }
 
   #img19 {
     position: absolute;
     left: 47%;
-    top: 67%;
+    top: 68%;
   }
 
   #img20 {
     position: absolute;
     left: 57%;
-    top: 67%;
+    top: 68%;
   }
 
   #img21 {
     position: absolute;
     left: 62%;
-    top: 67%;
+    top: 68%;
   }
 
   #img22 {
     position: absolute;
     left: 62.5%;
-    top: 70%;
+    top: 71%;
   }
 
   #img23 {
     position: absolute;
     left: 70%;
-    top: 67%;
+    top: 68%;
   }
 
   #img24 {
@@ -614,13 +614,13 @@ li {
 
   #img25 {
     position: absolute;
-    left: 22%;
+    left: 18%;
     top: 80%;
   }
 
   #img26 {
     position: absolute;
-    left: 29.5%;
+    left: 25.5%;
     top: 80%;
   }
 }
@@ -663,7 +663,7 @@ li {
 
   .ToLink_1 li {
     text-align: center;
-    font-size: medium;;
+    font-size: medium;
     letter-spacing: 2px;
     font-weight: bold;
     padding: 0.5%;

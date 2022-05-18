@@ -216,14 +216,14 @@
   .over {
     margin-top: 75px;
     margin-bottom: 75px;
-    margin-left: 30.5%;
+    margin-left: 28.5%;
   }
 
   .over p {
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 740px;
+    width: 540px;
     /* 2行目以降を改行 */
     padding-left: 7.3em;
     text-indent: -7.3em;
@@ -246,7 +246,7 @@
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-    width: 740px;
+    width: 540px;
   }
 
   .Home h2 {

@@ -133,16 +133,22 @@ body {
     width: 1903px;
     min-width: 1903px;
   }
+  .selecter {
+    font-weight: bold;
+    float: right;
+    padding-top: 35px;
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1919px) {
   .app {
-    width: 1400px;
-    min-width: 1400px;
+    width: 1200px;
+    min-width: 1200px;
   }
   .nav {
-    width: 1400px;
-    min-width: 1400px;
+    width: 1200px;
+    min-width: 1200px;
   }
 }
 
@@ -154,6 +160,12 @@ body {
   .nav {
     width: 900px;
     min-width: 900px;
+  }
+  .selecter {
+    font-weight: bold;
+    float: right;
+    padding-top: 30px;
+    font-size: 27px;
   }
 }
 </style>
