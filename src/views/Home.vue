@@ -8,12 +8,12 @@
     <div class="HomesTOP">
       <div class="HomeTopText2">
         <p>
-          社会福祉法人ゆるり福祉会は、故柏木順子が中心となって設立されました。柏木は、「ノーマライゼーション」という理念がまだ世の中には目新しく、「インクルージョン」や
-          「インテグレーション」という理念があらわれていなかったころから、障がいのある人と障がいのない人が同じ環境で生活できる地域社会を実現しようと、一市民として様々な取り組みを実践していました。<br />柏木は、障害のある人は助けられるだけの存在ではなく、適切な支援と環境が整えば、社会とつながり、地域で生活していくことができると考え、
-          東部大阪障がい者労働センター(S63年6月)を設立し、にっこり作業所(H3年)とPicaPica
+          &nbsp;社会福祉法人ゆるり福祉会は、故柏木順子が中心となって設立されました。柏木は、「ノーマライゼーション」という理念がまだ世の中には目新しく、「インクルージョン」や
+          「インテグレーション」という理念があらわれていなかったころから、障がいのある人と障がいのない人が同じ環境で生活できる地域社会を実現しようと、一市民として様々な取り組みを実践していました。<br />&nbsp;柏木は、障害のある人は助けられるだけの存在ではなく、適切な支援と環境が整えば、社会とつながり、地域で生活していくことができると考え、
+          東部大阪障がい者労働センター(S63年6月)を設立し、にっこり作業所(H3年6月)とPicaPica
           作業所(H7年4月)を開所しました。これらが社会福祉法人ゆるり福祉会の前身となりました。
-          <br />柏木は、障がいのある人と障がいのない人が協力して仕事をする場を作り、そこに集う人々の日々の生活を支えました。現在の公的な福祉サービスがまだ確立される前で、
-          「就労継続支援B型」という言葉もない時代でした。<br />私たち社会福祉法人ゆるり福祉会は、柏木のおもいを引継ぎ、本当のノーマライゼーション社会を実現すべく取り組み続けてまいります。
+          <br />&nbsp;柏木は、障がいのある人と障がいのない人が協力して仕事をする場を作り、そこに集う人々の日々の生活を支えました。現在の公的な福祉サービスがまだ確立される前で、
+          「就労継続支援B型」という言葉もない時代でした。<br />&nbsp;私たち社会福祉法人ゆるり福祉会は、柏木のおもいを引継ぎ、本当のノーマライゼーション社会を実現すべく取り組み続けてまいります。
         </p>
       </div>
     </div>
@@ -23,7 +23,7 @@
       <div class="tempdiv">
         <div class="over">
           <p class="test">○商合 / 社会福祉法人ゆるり福祉会</p>
-          <p class="test">○創業 / 1998 年 6月</p>
+          <p class="test">○創業 / 1988 年 6月</p>
           <p class="test">○設立 / 2006 年 3月</p>
           <p class="test">○代表者 / 角川 博泉</p>
           <p class="test">
@@ -33,7 +33,10 @@
           </p>
           <p class="test">○事業認可 / 指定障害者福祉サービス事業者</p>
           <p class="test">○障がい福祉サービスの種類 / 就労継続支援B型(40名)</p>
-          <p class="test">○苦情受付 / 担当者 井藤<br />責任者 角川</p>
+          <p>○苦情受付 / 担当者 井藤 陽介</p>
+          <div class="otherp">
+            <p>責任者 角川 博泉</p>
+          </div>
         </div>
       </div>
     </div>
@@ -137,7 +140,7 @@
 
 .HomeTopText2 p {
   margin-top: 35px;
-  text-align: center;
+  text-align: left;
   font-size: 17px;
   letter-spacing: 2px;
   color: #444344;
@@ -182,8 +185,12 @@
   letter-spacing: 2px;
   color: #444344;
   font-weight: bold;
-  padding-left: 7.3em;
-  text-indent: -7.3em;
+  padding-left: 103.5px;
+  text-indent: -103.5px;
+}
+
+.otherp p {
+  text-indent: 18.5px;
 }
 
 .over2 p {
@@ -225,8 +232,12 @@
     font-weight: bold;
     width: 540px;
     /* 2行目以降を改行 */
-    padding-left: 7.3em;
-    text-indent: -7.3em;
+    padding-left: 103.5px;
+    text-indent: -103.5px;
+  }
+
+  .otherp p {
+    text-indent: 18.5px;
   }
 
   .HomeTopText2 {
@@ -241,7 +252,7 @@
 
   .HomeTopText2 p {
     margin-top: 35px;
-    text-align: center;
+    text-align: left;
     font-size: 17px;
     letter-spacing: 2px;
     color: #444344;
@@ -269,8 +280,12 @@
     font-weight: bold;
     width: 480px;
     /* 2行目以降を改行 */
-    padding-left: 7.8em;
-    text-indent: -7.8em;
+    padding-left: 98.5px;
+    text-indent: -98.5px;
+  }
+
+  .otherp p {
+    text-indent: 17.5px;
   }
 
   .over {
@@ -295,7 +310,7 @@
 
   .HomesTOP .HomeTopText2 p {
     margin-top: 35px;
-    text-align: center;
+    text-align: left;
     font-size: small;
     letter-spacing: 2px;
     color: #444344;
