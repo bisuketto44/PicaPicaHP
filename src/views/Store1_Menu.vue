@@ -296,7 +296,7 @@ body {
     color: #444344;
     font-weight: bold;
     width: 740px;
-    margin-left: 350px;
+    margin-left: 250px;
   }
 
   .menuText a {

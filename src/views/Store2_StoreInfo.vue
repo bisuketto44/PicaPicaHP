@@ -241,7 +241,7 @@ span {
     color: #444344;
     font-weight: bold;
     width: 640px;
-    margin-left: 400px;
+    margin-left: 280px;
   }
 
   .OtherBOX img {

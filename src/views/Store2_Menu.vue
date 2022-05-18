@@ -117,6 +117,15 @@ body {
   margin-left: 23.5px;
 }
 
+.menutext_city2 {
+  text-align: center;
+  font-size: medium;
+  letter-spacing: 2px;
+  color: #444344;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
 .City_Menu_Top img {
   width: 60px;
   height: 60px;
@@ -178,7 +187,7 @@ span {
     color: #444344;
     font-weight: bold;
     width: 740px;
-    margin-left: 350px;
+    margin-left: 250px;
   }
 
   .menutext_city2 {

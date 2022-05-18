@@ -270,7 +270,7 @@ span {
     color: #444344;
     font-weight: bold;
     width: 640px;
-    margin-left: 390px;
+    margin-left: 290px;
   }
 
   .Recruit img {
@@ -307,7 +307,7 @@ span {
     color: #444344;
     font-weight: bold;
     width: 740px;
-    margin-left: 350px;
+    margin-left: 250px;
   }
 }
 

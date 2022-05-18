@@ -349,7 +349,6 @@
     letter-spacing: 2px;
     color: #444344;
     font-weight: bold;
-
     display: block;
   }
 
