@@ -72,11 +72,18 @@
             target="_blank"
             rel="noopener noreferrer"
             class="btn facebook"
-            ><span class="fa fa-facebook-square"></span>今週のメニュー詳細</a
+            ><span class="fa fa-facebook-square"></span>今週のメニュー詳細(FaceBook)</a
+          ><br>
+          <a
+            href="https://www.instagram.com/cafe_pica_pica/?r=nametag"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn instagram"
+            ><span class="fa fa-instagram"></span>Instagram</a
           >
         </div>
         <div class="menutext_city2">
-          <p>市役所店Facebookをご参照下さい。</p>
+          <p>市役所店SNSをご参照下さい。</p>
         </div>
       </div>
     </div>
