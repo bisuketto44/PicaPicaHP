@@ -32,7 +32,7 @@
             pica2@eco.ocn.ne.jp
           </p>
           <p class="test">○事業認可 / 指定障害者福祉サービス事業者</p>
-          <p class="test">○障がい福祉サービスの種類 / 就労継続支援B型(40名)</p>
+          <p class="test">○障がい福祉サービスの種類 / 就労継続支援B型(定員40名)</p>
           <p>○苦情受付 / 担当者 井藤 陽介</p>
           <div class="otherp">
             <p>責任者 角川 博泉</p>
