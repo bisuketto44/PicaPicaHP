@@ -21,7 +21,7 @@
           </div>
 
 
-          <label for="trigger" class="open_btn2" id="img17"
+          <label for="trigger" class="open_btn2"
             ><img alt="image1" width="" src="../assets/Notice_page-0001.jpg"
           /></label>
       </div>
