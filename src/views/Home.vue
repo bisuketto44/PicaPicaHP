@@ -9,19 +9,19 @@
       <h2>●お知らせ</h2>
       <div class="HomeTopText2">
 
-          <div class="popup_wrap">
+          <div class="popup_wrap2">
             <input id="trigger" type="checkbox" />
-            <div class="popup_overlay">
-              <label for="trigger" class="popup_trigger"></label>
-              <div class="popup_content">
-                <label for="trigger" class="close_btn"></label>
+            <div class="popup_overlay2">
+              <label for="trigger" class="popup_trigger2"></label>
+              <div class="popup_content2">
+                <label for="trigger" class="close_btn2"></label>
                 <img alt="image1" width="400" src="../assets/Notice_page-0001.jpg" />
               </div>
             </div>
           </div>
 
 
-          <label for="trigger" class="open_btn" id="img17"
+          <label for="trigger" class="open_btn2" id="img17"
             ><img alt="image1" width="" src="../assets/Notice_page-0001.jpg"
           /></label>
       </div>
@@ -260,11 +260,11 @@
 }
 
 /*ポップアップここから*/
-.popup_wrap input {
+.popup_wrap2 input {
   display: none;
 }
 
-.popup_overlay {
+.popup_overlay2 {
   display: flex;
   justify-content: center;
   overflow: auto;
@@ -280,13 +280,13 @@
   transform: scale(0);
 }
 
-.popup_trigger {
+.popup_trigger2 {
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
-.popup_content {
+.popup_content2 {
   position: relative;
   align-self: center;
   width: 100%;
@@ -299,7 +299,7 @@
   background: rgb(0, 0, 0);
 }
 
-.close_btn {
+.close_btn2 {
   position: absolute;
   top: 14px;
   right: 16px;
@@ -307,24 +307,24 @@
   cursor: pointer;
 }
 
-.popup_wrap input:checked ~ .popup_overlay {
+.popup_wrap2 input:checked ~ .popup_overlay2 {
   opacity: 1;
   transform: scale(1);
   transition: opacity 0.5s;
 }
 
-.open_btn img {
+.open_btn2 img {
   width: 500px;
   height: 700px;
 }
 
-.open_btn {
+.open_btn2 {
   cursor: pointer;
   width: 500px;
   height: 700px;
 }
 
-.open_btn:hover {
+.open_btn2:hover {
   transform: scale(1.2);
   transition: 0.3s ease;
 }
