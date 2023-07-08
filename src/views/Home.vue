@@ -6,6 +6,29 @@
     </div>
 
     <div class="HomesTOP">
+      <h2>●お知らせ</h2>
+      <div class="HomeTopText2">
+
+          <div class="popup_wrap">
+            <input id="trigger" type="checkbox" />
+            <div class="popup_overlay">
+              <label for="trigger" class="popup_trigger"></label>
+              <div class="popup_content">
+                <label for="trigger" class="close_btn"></label>
+                <img alt="image1" width="400" src="../assets/Notice_page-0001.jpg" />
+              </div>
+            </div>
+          </div>
+
+
+          <label for="trigger" class="open_btn" id="img17"
+            ><img alt="image1" width="" src="../assets/Notice_page-0001.jpg"
+          /></label>
+      </div>
+    </div>
+
+    <div class="HomesTOP">
+      <h2>●社会福祉法人ゆるり福祉会とは</h2>
       <div class="HomeTopText2">
         <p>
           &nbsp;&nbsp;社会福祉法人ゆるり福祉会は、故柏木順子が中心となって設立されました。柏木は、「ノーマライゼーション」という理念がまだ世の中には目新しく、「インクルージョン」や
@@ -147,6 +170,12 @@
   width: 780px;
 }
 
+.HomeTopText2 img {
+  width: 600px;
+  height: 840px;
+  margin: 2%;
+}
+
 .TOPTEXTFoot {
   height: 90px;
   text-align: center;
@@ -229,6 +258,77 @@
 .HomesTOP {
   margin-top: 75px;
 }
+
+/*ポップアップここから*/
+.popup_wrap input {
+  display: none;
+}
+
+.popup_overlay {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.5s, transform 0s 0.5s;
+  transform: scale(0);
+}
+
+.popup_trigger {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.popup_content {
+  position: relative;
+  align-self: center;
+  width: 100%;
+  max-width: 700px;
+  padding: 30px 30px 15px;
+  box-sizing: border-box;
+  background: #fff;
+  line-height: 1.4em;
+  transition: 0.5s;
+  background: rgb(0, 0, 0);
+}
+
+.close_btn {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.popup_wrap input:checked ~ .popup_overlay {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.5s;
+}
+
+.open_btn img {
+  width: 500px;
+  height: 700px;
+}
+
+.open_btn {
+  cursor: pointer;
+  width: 500px;
+  height: 700px;
+}
+
+.open_btn:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease;
+}
+/*ポップアップココまで*/
 
 @media (max-width: 1919px) {
   .TOPTEXT {
