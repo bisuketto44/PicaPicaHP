@@ -22,7 +22,7 @@
         <div class="storeEXP2">
           <div class="EXP">
             <h3>cafe rest pica pica 市役所店</h3>
-            <p>ご連絡</p>
+            <p>連絡先</p>
             <ul>
               <li>〒581-0003</li>
               <li>大阪府八尾市本町1丁目1番1号 八尾市役所地下1階</li>

@@ -6,26 +6,6 @@
     </div>
 
     <div class="HomesTOP">
-      <h2>●お知らせ</h2>
-      <div class="HomeTopText2">
-
-          <div class="popup_wrap2">
-            <input id="trigger" type="checkbox" />
-            <div class="popup_overlay2">
-              <label for="trigger" class="popup_trigger2"></label>
-              <div class="popup_content2">
-                <label for="trigger" class="close_btn2"></label>
-                <img alt="image1" width="400" src="../assets/Notice_page-0002.jpg" />
-              </div>
-            </div>
-          </div>
-          <label for="trigger" class="open_btn2"
-            ><img alt="image1" width="" src="../assets/Notice_page-0002.jpg"
-          /></label>
-      </div>
-    </div>
-
-    <div class="HomesTOP">
       <h2>●社会福祉法人ゆるり福祉会とは</h2>
       <div class="HomeTopText2">
         <p>

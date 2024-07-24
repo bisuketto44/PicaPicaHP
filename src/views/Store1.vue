@@ -21,7 +21,7 @@
         <div class="storeExp">
           <div class="EXP">
             <h3>カフェ＆ベーカリー Pica Pica 空港店</h3>
-            <p>ご連絡</p>
+            <p>連絡先</p>
             <ul>
               <li>〒581-0043</li>
               <li>大阪府八尾市空港1-146-2 大阪府中部広域防災拠点前</li>
@@ -34,9 +34,15 @@
             </ul>
             <p>行き方</p>
             <ul>
-              <li>電車・JR関西線志紀駅より<br />徒歩約20分で</li>
+              <li>電車・JR関西線志紀駅より<br />徒歩約20分</li>
               <li>
                 バス<br />近鉄バス(近鉄八尾～藤井寺路線)<br />南木の本下車徒歩約15分
+              </li>
+            </ul>
+             <p>来店されるお客様へのお願い</p>
+            <ul>
+              <li>
+                駐車可能台数に限りがありますので<br />複数人でご来店される際はお車の乗り合わせをご検討下さい。
               </li>
             </ul>
           </div>
@@ -378,7 +384,7 @@ li {
   /* 上下から見て中央寄せに */
   /* align-items: center; */
   display: flex;
-  height: 550px;
+  height: 650px;
 }
 
 .storeExp div {
@@ -561,7 +567,7 @@ li {
     /* align-items: center; */
     margin-left: 24.5%;
     display: block;
-    height: 900px;
+    height: 1000px;
   }
 
   #img17 {
@@ -637,7 +643,7 @@ li {
     /* align-items: center; */
     margin-left: 19.5%;
     display: block;
-    height: 870px;
+    height: 970px;
   }
 
   .store3 p {
